@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Employment/Python/orders_and_payments/**)"
+    ]
+  }
+}

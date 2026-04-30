@@ -1,0 +1,42 @@
+services:
+
+  # ── Express API ─────────────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      DB_HOST:        ${DB_HOST}
+      DB_PORT:        ${DB_PORT:-5432}
+      DB_NAME:        ${DB_NAME}
+      DB_USER:        ${DB_USER}
+      DB_PASSWORD:    ${DB_PASSWORD}
+      JWT_SECRET:     ${JWT_SECRET}
+      PORT:           3000
+      ALLOWED_ORIGIN: ${ALLOWED_ORIGIN}
+    restart: unless-stopped
+
+  # ── Python analytics (FastAPI + KMeans) ─────────────────────────────────────
+  analytics:
+    build:
+      context: ${ANALYTICS_PATH:-../orders_and_payments}
+    environment:
+      DB_HOST:        ${DB_HOST}
+      DB_PORT:        ${DB_PORT:-5432}
+      DB_NAME:        ${DB_NAME}
+      DB_USER:        ${DB_USER}
+      DB_PASSWORD:    ${DB_PASSWORD}
+      ALLOWED_ORIGIN: ${ALLOWED_ORIGIN}
+    restart: unless-stopped
+
+  # ── Nginx — serves Angular SPA + reverse-proxies both APIs ──────────────────
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+      - analytics
+    restart: unless-stopped

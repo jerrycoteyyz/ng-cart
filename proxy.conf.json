@@ -1,0 +1,13 @@
+{
+  "/api/analytics": {
+    "target": "http://localhost:8000",
+    "secure": false,
+    "pathRewrite": { "^/api/analytics": "/api" },
+    "logLevel": "warn"
+  },
+  "/api": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "logLevel": "warn"
+  }
+}
