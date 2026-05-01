@@ -7,4 +7,5 @@ export const pool = new Pool({
   database: process.env['DB_NAME']     || 'ngcart',
   user:     process.env['DB_USER']     || 'ngcart',
   password: process.env['DB_PASSWORD'] || 'ngcart_dev',
+  ssl:      process.env['DB_SSL'] === 'false' ? false : { rejectUnauthorized: false },
 });
