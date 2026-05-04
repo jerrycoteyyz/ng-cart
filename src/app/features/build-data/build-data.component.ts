@@ -14,6 +14,8 @@ interface ActionResult {
     <p class="intro">
       Generate random customers, orders, and payments to populate the analytics report
       with meaningful segmentation data.
+      <BR/><BR/>
+      Click these buttons as often as you wish.  After adding orders and/or payments, the Reports link will show new results. 
     </p>
 
     <div class="action-grid">

@@ -138,7 +138,7 @@ interface CustomerSegment {
             <div class="exposure-group">
               <div class="exposure-label">{{ fmt(seg.segment_label) }}</div>
               <div class="bar-row">
-                <span class="bar-sub-lbl pos">+</span>
+                <span class="bar-sub-lbl pos">−</span>
                 <div class="bar-track">
                   <div class="bar-fill bar-red"
                        [style.width.%]="seg.total_positive_balance / maxExposure() * 100"></div>
@@ -146,7 +146,7 @@ interface CustomerSegment {
                 <span class="bar-val">{{ seg.total_positive_balance | currencyFormat }}</span>
               </div>
               <div class="bar-row">
-                <span class="bar-sub-lbl neg">−</span>
+                <span class="bar-sub-lbl neg">+</span>
                 <div class="bar-track">
                   <div class="bar-fill bar-green"
                        [style.width.%]="abs(seg.total_negative_balance) / maxExposure() * 100"></div>
@@ -395,8 +395,8 @@ interface CustomerSegment {
       text-align: center;
     }
 
-    .bar-sub-lbl.pos { color: #16a34a; }
-    .bar-sub-lbl.neg { color: #dc2626; }
+    .bar-sub-lbl.pos { color: #dc2626; }
+    .bar-sub-lbl.neg { color: #16a34a; }
 
     /* ── Customer filter ───────────────────────────────────────── */
     .filter-row {
