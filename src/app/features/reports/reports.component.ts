@@ -140,7 +140,7 @@ interface CustomerSegment {
               <div class="bar-row">
                 <span class="bar-sub-lbl pos">+</span>
                 <div class="bar-track">
-                  <div class="bar-fill bar-green"
+                  <div class="bar-fill bar-red"
                        [style.width.%]="seg.total_positive_balance / maxExposure() * 100"></div>
                 </div>
                 <span class="bar-val">{{ seg.total_positive_balance | currencyFormat }}</span>
@@ -148,7 +148,7 @@ interface CustomerSegment {
               <div class="bar-row">
                 <span class="bar-sub-lbl neg">−</span>
                 <div class="bar-track">
-                  <div class="bar-fill bar-red"
+                  <div class="bar-fill bar-green"
                        [style.width.%]="abs(seg.total_negative_balance) / maxExposure() * 100"></div>
                 </div>
                 <span class="bar-val">{{ abs(seg.total_negative_balance) | currencyFormat }}</span>
