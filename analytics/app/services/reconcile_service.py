@@ -199,17 +199,72 @@ def classify_severity(balance):
         else:
             return "low"
 
-def assign_customer_segments(orders, payments, n_clusters=7):
+def assign_labels_from_centers(centers_unscaled):
+    """
+    Dynamically assign segment labels to KMeans clusters by inspecting
+    each cluster center's balance and payment ratio.
+    KMeans cluster IDs are arbitrary, so labels must be derived from
+    the actual characteristics of each cluster rather than hardcoded.
 
-    SEGMENT_LABELS = {
-        0: "payment_heavy",
-        1: "unpaid_customers",
-        2: "underpaying_customers",
-        3: "healthy_active",
-        4: "mid_tier_mixed",
-        5: "high_anomaly_overpay",
-        6: "extreme_outlier"
-    }
+    Feature column order:
+      0 total_orders  1 total_payments  2 balance
+      3 order_count   4 payment_count   5 avg_order_value  6 avg_payment_value
+    """
+    n = len(centers_unscaled)
+    labels = [None] * n
+    assigned = set()
+
+    info = []
+    for i in range(n):
+        c = centers_unscaled[i]
+        orders    = float(c[0])
+        payments  = float(c[1])
+        balance   = float(c[2])
+        pay_ratio = payments / orders if orders > 0.01 else (1.0 if payments > 0 else 0.0)
+        info.append({'id': i, 'balance': balance, 'pay_ratio': pay_ratio})
+
+    def rem():
+        return [x for x in info if x['id'] not in assigned]
+
+    def assign(cluster_id, label):
+        labels[cluster_id] = label
+        assigned.add(cluster_id)
+
+    # unpaid_customers — highest positive balance with the lowest payment ratio
+    candidates = sorted([x for x in info if x['balance'] > 0],
+                        key=lambda x: -x['balance'] * (1 - min(x['pay_ratio'], 1)))
+    if candidates:
+        assign(candidates[0]['id'], 'unpaid_customers')
+
+    # underpaying_customers — next highest positive balance (partial payments)
+    candidates = sorted([x for x in rem() if x['balance'] > 0], key=lambda x: -x['balance'])
+    if candidates:
+        assign(candidates[0]['id'], 'underpaying_customers')
+
+    # payment_heavy — most negative balance (payments exceed orders)
+    if rem():
+        assign(min(rem(), key=lambda x: x['balance'])['id'], 'payment_heavy')
+
+    # healthy_active — closest balance to zero (well-balanced customers)
+    if rem():
+        assign(min(rem(), key=lambda x: abs(x['balance']))['id'], 'healthy_active')
+
+    # high_anomaly_overpay — highest payment ratio among what remains
+    if rem():
+        assign(max(rem(), key=lambda x: x['pay_ratio'])['id'], 'high_anomaly_overpay')
+
+    # mid_tier_mixed — next closest to zero balance
+    if rem():
+        assign(min(rem(), key=lambda x: abs(x['balance']))['id'], 'mid_tier_mixed')
+
+    # extreme_outlier — whatever is left
+    for x in rem():
+        assign(x['id'], 'extreme_outlier')
+
+    return labels
+
+
+def assign_customer_segments(orders, payments, n_clusters=7):
 
     SEGMENT_ACTIONS = {
         "unpaid_customers": {
@@ -273,10 +328,14 @@ def assign_customer_segments(orders, payments, n_clusters=7):
     model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     features_df["segment"] = model.fit_predict(X_scaled)
 
+    # Derive labels from actual cluster center characteristics
+    centers_unscaled = scaler.inverse_transform(model.cluster_centers_)
+    segment_labels = assign_labels_from_centers(centers_unscaled)
+
     result = []
     for _, row in features_df.iterrows():
         segment_id = int(row["segment"])
-        segment_label = SEGMENT_LABELS[segment_id]
+        segment_label = segment_labels[segment_id]
         action_info = SEGMENT_ACTIONS[segment_label]
 
         result.append(
