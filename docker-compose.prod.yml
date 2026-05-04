@@ -19,7 +19,7 @@ services:
   # ── Python analytics (FastAPI + KMeans) ─────────────────────────────────────
   analytics:
     build:
-      context: ${ANALYTICS_PATH:-../orders_and_payments}
+      context: ./analytics
     environment:
       DB_HOST:        ${DB_HOST}
       DB_PORT:        ${DB_PORT:-5432}

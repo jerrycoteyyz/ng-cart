@@ -9,7 +9,7 @@ services:
       - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./db:/docker-entrypoint-initdb.d   # runs *.sql files alphabetically on first start
+      - ./db/migrations:/docker-entrypoint-initdb.d   # runs V001, V002… in order on first start
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ngcart -d ngcart"]
       interval: 5s
@@ -18,7 +18,7 @@ services:
 
   analytics:
     build:
-      context: ../../Python/orders_and_payments
+      context: ./analytics
     ports:
       - "8000:8000"
     environment:

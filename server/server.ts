@@ -447,5 +447,141 @@ app.post('/api/payments', requireAuth, async (req, res) => {
   }
 });
 
+// ── POST /api/dev/add-customers ──────────────────────────────────────────────
+// Adds 5 sequential generated customers, continuing from the last one created.
+app.post('/api/dev/add-customers', requireAuth, async (_req, res) => {
+  try {
+    const lastResult = await pool.query<{ max: string }>(
+      `SELECT COALESCE(MAX(CAST(SUBSTRING(email FROM 'customer_(\\d+)@') AS INTEGER)), 0) AS max
+       FROM users WHERE email ~ '^customer_\\d+@ngcart\\.dev$'`,
+    );
+    const startNum = Number(lastResult.rows[0].max) + 1;
+
+    const added: { email: string; name: string }[] = [];
+    for (let i = startNum; i < startNum + 5; i++) {
+      const num   = String(i).padStart(4, '0');
+      const email = `customer_${num}@ngcart.dev`;
+      const name  = `Customer ${num}`;
+      await pool.query(
+        `INSERT INTO users (email, name, password_hash)
+         VALUES ($1, $2, crypt('devpass123', gen_salt('bf', 10)))`,
+        [email, name],
+      );
+      added.push({ email, name });
+    }
+    res.json({ added });
+  } catch (err) {
+    console.error('[add-customers]', err);
+    res.status(500).json({ message: 'Failed to add customers' });
+  }
+});
+
+// ── POST /api/dev/add-orders ──────────────────────────────────────────────────
+// For a random 20% of customers, creates an order with 1–5 random products.
+app.post('/api/dev/add-orders', requireAuth, async (_req, res) => {
+  try {
+    const customersResult = await pool.query<{ id: string; email: string }>(
+      `SELECT id, email FROM users
+       ORDER BY RANDOM()
+       LIMIT GREATEST(1, (SELECT COUNT(*)::int FROM users) / 5)`,
+    );
+
+    const productsResult = await pool.query<{
+      id: string; name: string; price: string; image_url: string; stock: number;
+    }>(`SELECT id, name, price, image_url, stock FROM products WHERE is_active = true AND stock > 0`);
+
+    const products = productsResult.rows;
+    if (!products.length) {
+      res.status(409).json({ message: 'No products in stock' });
+      return;
+    }
+
+    const created: { orderId: number; customer: string; total: string }[] = [];
+
+    for (const customer of customersResult.rows) {
+      const numItems  = Math.floor(Math.random() * 5) + 1;
+      const shuffled  = [...products].sort(() => Math.random() - 0.5);
+      const selected  = shuffled.slice(0, Math.min(numItems, shuffled.length));
+
+      let subtotal = 0;
+      const lines = selected.map(p => {
+        const qty = Math.floor(Math.random() * 3) + 1;
+        subtotal += Number(p.price) * qty;
+        return { product: p, quantity: qty };
+      });
+
+      const tax   = subtotal * TAX_RATE;
+      const total = subtotal + tax;
+
+      const orderResult = await pool.query<{ id: number }>(
+        `INSERT INTO orders (user_id, status, subtotal, tax, total, tax_rate)
+         VALUES ($1, 'confirmed', $2, $3, $4, $5) RETURNING id`,
+        [customer.id, subtotal.toFixed(2), tax.toFixed(2), total.toFixed(2), TAX_RATE],
+      );
+      const orderId = orderResult.rows[0].id;
+
+      for (const line of lines) {
+        await pool.query(
+          `INSERT INTO order_items (order_id, product_id, product_name, product_image, unit_price, quantity)
+           VALUES ($1, $2, $3, $4, $5, $6)`,
+          [orderId, line.product.id, line.product.name, line.product.image_url, line.product.price, line.quantity],
+        );
+        await pool.query(
+          `UPDATE products
+           SET stock = CASE WHEN (stock - $1) < 5 THEN (stock - $1) + 20 ELSE stock - $1 END,
+               updated_at = now()
+           WHERE id = $2`,
+          [line.quantity, line.product.id],
+        );
+      }
+
+      created.push({ orderId: Number(orderId), customer: customer.email, total: total.toFixed(2) });
+    }
+
+    res.json({ ordersCreated: created.length, orders: created });
+  } catch (err) {
+    console.error('[add-orders]', err);
+    res.status(500).json({ message: 'Failed to add orders' });
+  }
+});
+
+// ── POST /api/dev/add-payments ────────────────────────────────────────────────
+// For a random 20% of customers, records a payment of 30–200% of their balance.
+// Customers with no balance receive a $200 payment.
+app.post('/api/dev/add-payments', requireAuth, async (_req, res) => {
+  try {
+    const customersResult = await pool.query<{ id: string; email: string; balance: string }>(
+      `SELECT u.id, u.email,
+         COALESCE((SELECT SUM(total)  FROM orders   WHERE user_id = u.id AND status <> 'cancelled'), 0) -
+         COALESCE((SELECT SUM(amount) FROM payments WHERE user_id = u.id), 0) AS balance
+       FROM users u
+       ORDER BY RANDOM()
+       LIMIT GREATEST(1, (SELECT COUNT(*)::int FROM users) / 5)`,
+    );
+
+    const created: { customer: string; balance: string; paid: string }[] = [];
+
+    for (const customer of customersResult.rows) {
+      const balance = Number(customer.balance);
+      const pct     = 0.3 + Math.random() * 1.7;
+      const amount  = balance > 0
+        ? Math.round(balance * pct * 100) / 100
+        : 200;
+
+      await pool.query(
+        `INSERT INTO payments (user_id, amount, note) VALUES ($1, $2, 'Generated payment')`,
+        [customer.id, amount.toFixed(2)],
+      );
+
+      created.push({ customer: customer.email, balance: balance.toFixed(2), paid: amount.toFixed(2) });
+    }
+
+    res.json({ paymentsCreated: created.length, payments: created });
+  } catch (err) {
+    console.error('[add-payments]', err);
+    res.status(500).json({ message: 'Failed to add payments' });
+  }
+});
+
 const PORT = Number(process.env['PORT'] || 3000);
 app.listen(PORT, () => console.log(`API server listening on :${PORT}`));

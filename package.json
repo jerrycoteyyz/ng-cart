@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "server": "tsx watch server/server.ts",
+    "migrate": "tsx db/migrate.ts",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

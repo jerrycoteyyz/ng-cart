@@ -35,6 +35,12 @@ export const routes: Routes = [
         .then(m => m.CheckoutComponent),
   },
   {
+    path: 'build-data',
+    canActivate: [authGuard],
+    loadComponent: () =>
+      import('./features/build-data/build-data.component').then(m => m.BuildDataComponent),
+  },
+  {
     path: 'reports',
     canActivate: [authGuard],
     loadComponent: () =>

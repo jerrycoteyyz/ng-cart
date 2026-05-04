@@ -1,0 +1,5052 @@
+{
+  "orders": [
+    {
+      "order_id": 1001,
+      "customer": "Customer_1",
+      "item": "Laptop",
+      "amount": 1903.2
+    },
+    {
+      "order_id": 1002,
+      "customer": "Customer_1",
+      "item": "Tablet",
+      "amount": 400.26
+    },
+    {
+      "order_id": 1003,
+      "customer": "Customer_1",
+      "item": "Dock",
+      "amount": 1896.21
+    },
+    {
+      "order_id": 1004,
+      "customer": "Customer_1",
+      "item": "Dock",
+      "amount": 445.7
+    },
+    {
+      "order_id": 1005,
+      "customer": "Customer_1",
+      "item": "Monitor",
+      "amount": 365.98
+    },
+    {
+      "order_id": 1006,
+      "customer": "Customer_1",
+      "item": "Tablet",
+      "amount": 649.02
+    },
+    {
+      "order_id": 1007,
+      "customer": "Customer_1",
+      "item": "Laptop",
+      "amount": 1353.81
+    },
+    {
+      "order_id": 1008,
+      "customer": "Customer_1",
+      "item": "Laptop",
+      "amount": 219.37
+    },
+    {
+      "order_id": 1009,
+      "customer": "Customer_2",
+      "item": "Mouse",
+      "amount": 1226.34
+    },
+    {
+      "order_id": 1010,
+      "customer": "Customer_2",
+      "item": "Tablet",
+      "amount": 168.77
+    },
+    {
+      "order_id": 1011,
+      "customer": "Customer_2",
+      "item": "Monitor",
+      "amount": 1660.31
+    },
+    {
+      "order_id": 1012,
+      "customer": "Customer_2",
+      "item": "Tablet",
+      "amount": 221.39
+    },
+    {
+      "order_id": 1013,
+      "customer": "Customer_2",
+      "item": "Dock",
+      "amount": 23.08
+    },
+    {
+      "order_id": 1014,
+      "customer": "Customer_2",
+      "item": "Dock",
+      "amount": 1903.0
+    },
+    {
+      "order_id": 1015,
+      "customer": "Customer_2",
+      "item": "Monitor",
+      "amount": 1686.66
+    },
+    {
+      "order_id": 1016,
+      "customer": "Customer_2",
+      "item": "Dock",
+      "amount": 1385.62
+    },
+    {
+      "order_id": 1017,
+      "customer": "Customer_2",
+      "item": "Mouse",
+      "amount": 1651.55
+    },
+    {
+      "order_id": 1018,
+      "customer": "Customer_2",
+      "item": "Dock",
+      "amount": 264.68
+    },
+    {
+      "order_id": 1019,
+      "customer": "Customer_3",
+      "item": "Monitor",
+      "amount": 485.42
+    },
+    {
+      "order_id": 1020,
+      "customer": "Customer_3",
+      "item": "Monitor",
+      "amount": 1679.77
+    },
+    {
+      "order_id": 1021,
+      "customer": "Customer_3",
+      "item": "Mouse",
+      "amount": 1141.56
+    },
+    {
+      "order_id": 1022,
+      "customer": "Customer_3",
+      "item": "Monitor",
+      "amount": 1695.09
+    },
+    {
+      "order_id": 1023,
+      "customer": "Customer_3",
+      "item": "Keyboard",
+      "amount": 1414.89
+    },
+    {
+      "order_id": 1024,
+      "customer": "Customer_3",
+      "item": "Mouse",
+      "amount": 1007.75
+    },
+    {
+      "order_id": 1025,
+      "customer": "Customer_4",
+      "item": "Monitor",
+      "amount": 456.39
+    },
+    {
+      "order_id": 1026,
+      "customer": "Customer_4",
+      "item": "Dock",
+      "amount": 1854.45
+    },
+    {
+      "order_id": 1027,
+      "customer": "Customer_4",
+      "item": "Laptop",
+      "amount": 1551.58
+    },
+    {
+      "order_id": 1028,
+      "customer": "Customer_4",
+      "item": "Tablet",
+      "amount": 1748.13
+    },
+    {
+      "order_id": 1029,
+      "customer": "Customer_4",
+      "item": "Dock",
+      "amount": 906.75
+    },
+    {
+      "order_id": 1030,
+      "customer": "Customer_4",
+      "item": "Keyboard",
+      "amount": 33.57
+    },
+    {
+      "order_id": 1031,
+      "customer": "Customer_4",
+      "item": "Mouse",
+      "amount": 1855.93
+    },
+    {
+      "order_id": 1032,
+      "customer": "Customer_4",
+      "item": "Tablet",
+      "amount": 1759.26
+    },
+    {
+      "order_id": 1033,
+      "customer": "Customer_4",
+      "item": "Tablet",
+      "amount": 1269.69
+    },
+    {
+      "order_id": 1034,
+      "customer": "Customer_4",
+      "item": "Mouse",
+      "amount": 1243.62
+    },
+    {
+      "order_id": 1035,
+      "customer": "Customer_5",
+      "item": "Monitor",
+      "amount": 44.25
+    },
+    {
+      "order_id": 1036,
+      "customer": "Customer_5",
+      "item": "Mouse",
+      "amount": 332.19
+    },
+    {
+      "order_id": 1037,
+      "customer": "Customer_5",
+      "item": "Monitor",
+      "amount": 350.3
+    },
+    {
+      "order_id": 1038,
+      "customer": "Customer_5",
+      "item": "Monitor",
+      "amount": 760.95
+    },
+    {
+      "order_id": 1039,
+      "customer": "Customer_5",
+      "item": "Dock",
+      "amount": 420.47
+    },
+    {
+      "order_id": 1040,
+      "customer": "Customer_5",
+      "item": "Keyboard",
+      "amount": 223.23
+    },
+    {
+      "order_id": 1041,
+      "customer": "Customer_6",
+      "item": "Keyboard",
+      "amount": 1955.96
+    },
+    {
+      "order_id": 1042,
+      "customer": "Customer_6",
+      "item": "Laptop",
+      "amount": 1165.56
+    },
+    {
+      "order_id": 1043,
+      "customer": "Customer_6",
+      "item": "Tablet",
+      "amount": 924.58
+    },
+    {
+      "order_id": 1044,
+      "customer": "Customer_7",
+      "item": "Laptop",
+      "amount": 1429.12
+    },
+    {
+      "order_id": 1045,
+      "customer": "Customer_7",
+      "item": "Mouse",
+      "amount": 1166.87
+    },
+    {
+      "order_id": 1046,
+      "customer": "Customer_7",
+      "item": "Tablet",
+      "amount": 983.95
+    },
+    {
+      "order_id": 1047,
+      "customer": "Customer_7",
+      "item": "Mouse",
+      "amount": 492.68
+    },
+    {
+      "order_id": 1048,
+      "customer": "Customer_7",
+      "item": "Tablet",
+      "amount": 1875.18
+    },
+    {
+      "order_id": 1049,
+      "customer": "Customer_8",
+      "item": "Dock",
+      "amount": 56.72
+    },
+    {
+      "order_id": 1050,
+      "customer": "Customer_8",
+      "item": "Monitor",
+      "amount": 1262.17
+    },
+    {
+      "order_id": 1051,
+      "customer": "Customer_9",
+      "item": "Mouse",
+      "amount": 473.12
+    },
+    {
+      "order_id": 1052,
+      "customer": "Customer_9",
+      "item": "Monitor",
+      "amount": 1383.77
+    },
+    {
+      "order_id": 1053,
+      "customer": "Customer_10",
+      "item": "Mouse",
+      "amount": 1425.38
+    },
+    {
+      "order_id": 1054,
+      "customer": "Customer_11",
+      "item": "Tablet",
+      "amount": 596.2
+    },
+    {
+      "order_id": 1055,
+      "customer": "Customer_11",
+      "item": "Mouse",
+      "amount": 1787.18
+    },
+    {
+      "order_id": 1056,
+      "customer": "Customer_11",
+      "item": "Dock",
+      "amount": 1027.34
+    },
+    {
+      "order_id": 1057,
+      "customer": "Customer_11",
+      "item": "Dock",
+      "amount": 1608.82
+    },
+    {
+      "order_id": 1058,
+      "customer": "Customer_11",
+      "item": "Mouse",
+      "amount": 511.79
+    },
+    {
+      "order_id": 1059,
+      "customer": "Customer_11",
+      "item": "Dock",
+      "amount": 402.66
+    },
+    {
+      "order_id": 1060,
+      "customer": "Customer_11",
+      "item": "Laptop",
+      "amount": 1947.87
+    },
+    {
+      "order_id": 1061,
+      "customer": "Customer_12",
+      "item": "Keyboard",
+      "amount": 1327.29
+    },
+    {
+      "order_id": 1062,
+      "customer": "Customer_12",
+      "item": "Laptop",
+      "amount": 1631.39
+    },
+    {
+      "order_id": 1063,
+      "customer": "Customer_12",
+      "item": "Laptop",
+      "amount": 1956.51
+    },
+    {
+      "order_id": 1064,
+      "customer": "Customer_12",
+      "item": "Mouse",
+      "amount": 234.82
+    },
+    {
+      "order_id": 1065,
+      "customer": "Customer_12",
+      "item": "Tablet",
+      "amount": 1720.73
+    },
+    {
+      "order_id": 1066,
+      "customer": "Customer_12",
+      "item": "Keyboard",
+      "amount": 207.02
+    },
+    {
+      "order_id": 1067,
+      "customer": "Customer_12",
+      "item": "Dock",
+      "amount": 875.11
+    },
+    {
+      "order_id": 1068,
+      "customer": "Customer_12",
+      "item": "Tablet",
+      "amount": 259.05
+    },
+    {
+      "order_id": 1069,
+      "customer": "Customer_12",
+      "item": "Laptop",
+      "amount": 1051.46
+    },
+    {
+      "order_id": 1070,
+      "customer": "Customer_13",
+      "item": "Monitor",
+      "amount": 546.89
+    },
+    {
+      "order_id": 1071,
+      "customer": "Customer_13",
+      "item": "Monitor",
+      "amount": 115.89
+    },
+    {
+      "order_id": 1072,
+      "customer": "Customer_13",
+      "item": "Dock",
+      "amount": 1019.35
+    },
+    {
+      "order_id": 1073,
+      "customer": "Customer_13",
+      "item": "Mouse",
+      "amount": 1389.25
+    },
+    {
+      "order_id": 1074,
+      "customer": "Customer_13",
+      "item": "Laptop",
+      "amount": 1344.08
+    },
+    {
+      "order_id": 1075,
+      "customer": "Customer_13",
+      "item": "Laptop",
+      "amount": 1335.59
+    },
+    {
+      "order_id": 1076,
+      "customer": "Customer_13",
+      "item": "Keyboard",
+      "amount": 142.13
+    },
+    {
+      "order_id": 1077,
+      "customer": "Customer_13",
+      "item": "Mouse",
+      "amount": 1861.28
+    },
+    {
+      "order_id": 1078,
+      "customer": "Customer_13",
+      "item": "Tablet",
+      "amount": 604.28
+    },
+    {
+      "order_id": 1079,
+      "customer": "Customer_14",
+      "item": "Keyboard",
+      "amount": 320.11
+    },
+    {
+      "order_id": 1080,
+      "customer": "Customer_15",
+      "item": "Dock",
+      "amount": 431.45
+    },
+    {
+      "order_id": 1081,
+      "customer": "Customer_15",
+      "item": "Tablet",
+      "amount": 999.05
+    },
+    {
+      "order_id": 1082,
+      "customer": "Customer_15",
+      "item": "Dock",
+      "amount": 994.13
+    },
+    {
+      "order_id": 1083,
+      "customer": "Customer_15",
+      "item": "Dock",
+      "amount": 1915.35
+    },
+    {
+      "order_id": 1084,
+      "customer": "Customer_15",
+      "item": "Monitor",
+      "amount": 300.57
+    },
+    {
+      "order_id": 1085,
+      "customer": "Customer_15",
+      "item": "Laptop",
+      "amount": 958.25
+    },
+    {
+      "order_id": 1086,
+      "customer": "Customer_15",
+      "item": "Mouse",
+      "amount": 1641.46
+    },
+    {
+      "order_id": 1087,
+      "customer": "Customer_16",
+      "item": "Monitor",
+      "amount": 1378.58
+    },
+    {
+      "order_id": 1088,
+      "customer": "Customer_16",
+      "item": "Tablet",
+      "amount": 1035.91
+    },
+    {
+      "order_id": 1089,
+      "customer": "Customer_16",
+      "item": "Tablet",
+      "amount": 22.99
+    },
+    {
+      "order_id": 1090,
+      "customer": "Customer_16",
+      "item": "Laptop",
+      "amount": 37.59
+    },
+    {
+      "order_id": 1091,
+      "customer": "Customer_16",
+      "item": "Mouse",
+      "amount": 1505.33
+    },
+    {
+      "order_id": 1092,
+      "customer": "Customer_17",
+      "item": "Mouse",
+      "amount": 539.41
+    },
+    {
+      "order_id": 1093,
+      "customer": "Customer_17",
+      "item": "Monitor",
+      "amount": 1762.87
+    },
+    {
+      "order_id": 1094,
+      "customer": "Customer_17",
+      "item": "Tablet",
+      "amount": 509.09
+    },
+    {
+      "order_id": 1095,
+      "customer": "Customer_17",
+      "item": "Keyboard",
+      "amount": 699.4
+    },
+    {
+      "order_id": 1096,
+      "customer": "Customer_17",
+      "item": "Dock",
+      "amount": 409.82
+    },
+    {
+      "order_id": 1097,
+      "customer": "Customer_17",
+      "item": "Laptop",
+      "amount": 1952.07
+    },
+    {
+      "order_id": 1098,
+      "customer": "Customer_17",
+      "item": "Keyboard",
+      "amount": 588.5
+    },
+    {
+      "order_id": 1099,
+      "customer": "Customer_17",
+      "item": "Monitor",
+      "amount": 1892.56
+    },
+    {
+      "order_id": 1100,
+      "customer": "Customer_17",
+      "item": "Mouse",
+      "amount": 1554.64
+    },
+    {
+      "order_id": 1101,
+      "customer": "Customer_18",
+      "item": "Dock",
+      "amount": 807.81
+    },
+    {
+      "order_id": 1102,
+      "customer": "Customer_18",
+      "item": "Keyboard",
+      "amount": 1591.58
+    },
+    {
+      "order_id": 1103,
+      "customer": "Customer_18",
+      "item": "Keyboard",
+      "amount": 1588.05
+    },
+    {
+      "order_id": 1104,
+      "customer": "Customer_18",
+      "item": "Mouse",
+      "amount": 387.61
+    },
+    {
+      "order_id": 1105,
+      "customer": "Customer_18",
+      "item": "Laptop",
+      "amount": 1142.04
+    },
+    {
+      "order_id": 1106,
+      "customer": "Customer_18",
+      "item": "Mouse",
+      "amount": 893.17
+    },
+    {
+      "order_id": 1107,
+      "customer": "Customer_18",
+      "item": "Keyboard",
+      "amount": 1825.01
+    },
+    {
+      "order_id": 1108,
+      "customer": "Customer_18",
+      "item": "Mouse",
+      "amount": 909.43
+    },
+    {
+      "order_id": 1109,
+      "customer": "Customer_19",
+      "item": "Tablet",
+      "amount": 1746.5
+    },
+    {
+      "order_id": 1110,
+      "customer": "Customer_19",
+      "item": "Tablet",
+      "amount": 1278.96
+    },
+    {
+      "order_id": 1111,
+      "customer": "Customer_19",
+      "item": "Monitor",
+      "amount": 1203.91
+    },
+    {
+      "order_id": 1112,
+      "customer": "Customer_19",
+      "item": "Laptop",
+      "amount": 532.0
+    },
+    {
+      "order_id": 1113,
+      "customer": "Customer_19",
+      "item": "Laptop",
+      "amount": 776.24
+    },
+    {
+      "order_id": 1114,
+      "customer": "Customer_19",
+      "item": "Laptop",
+      "amount": 1743.65
+    },
+    {
+      "order_id": 1115,
+      "customer": "Customer_19",
+      "item": "Dock",
+      "amount": 1574.6
+    },
+    {
+      "order_id": 1116,
+      "customer": "Customer_19",
+      "item": "Keyboard",
+      "amount": 1450.04
+    },
+    {
+      "order_id": 1117,
+      "customer": "Customer_19",
+      "item": "Keyboard",
+      "amount": 246.56
+    },
+    {
+      "order_id": 1118,
+      "customer": "Customer_20",
+      "item": "Dock",
+      "amount": 1170.61
+    },
+    {
+      "order_id": 1119,
+      "customer": "Customer_20",
+      "item": "Laptop",
+      "amount": 987.04
+    },
+    {
+      "order_id": 1120,
+      "customer": "Customer_20",
+      "item": "Mouse",
+      "amount": 1428.59
+    },
+    {
+      "order_id": 1121,
+      "customer": "Customer_21",
+      "item": "Monitor",
+      "amount": 589.75
+    },
+    {
+      "order_id": 1122,
+      "customer": "Customer_21",
+      "item": "Dock",
+      "amount": 822.4
+    },
+    {
+      "order_id": 1123,
+      "customer": "Customer_21",
+      "item": "Laptop",
+      "amount": 276.66
+    },
+    {
+      "order_id": 1124,
+      "customer": "Customer_21",
+      "item": "Monitor",
+      "amount": 1562.75
+    },
+    {
+      "order_id": 1125,
+      "customer": "Customer_22",
+      "item": "Tablet",
+      "amount": 207.83
+    },
+    {
+      "order_id": 1126,
+      "customer": "Customer_22",
+      "item": "Keyboard",
+      "amount": 251.86
+    },
+    {
+      "order_id": 1127,
+      "customer": "Customer_22",
+      "item": "Monitor",
+      "amount": 1315.87
+    },
+    {
+      "order_id": 1128,
+      "customer": "Customer_22",
+      "item": "Dock",
+      "amount": 1748.71
+    },
+    {
+      "order_id": 1129,
+      "customer": "Customer_22",
+      "item": "Laptop",
+      "amount": 387.14
+    },
+    {
+      "order_id": 1130,
+      "customer": "Customer_22",
+      "item": "Tablet",
+      "amount": 124.28
+    },
+    {
+      "order_id": 1131,
+      "customer": "Customer_22",
+      "item": "Tablet",
+      "amount": 1296.57
+    },
+    {
+      "order_id": 1132,
+      "customer": "Customer_22",
+      "item": "Keyboard",
+      "amount": 1738.58
+    },
+    {
+      "order_id": 1133,
+      "customer": "Customer_22",
+      "item": "Monitor",
+      "amount": 836.82
+    },
+    {
+      "order_id": 1134,
+      "customer": "Customer_22",
+      "item": "Tablet",
+      "amount": 431.38
+    },
+    {
+      "order_id": 1135,
+      "customer": "Customer_23",
+      "item": "Laptop",
+      "amount": 179.73
+    },
+    {
+      "order_id": 1136,
+      "customer": "Customer_24",
+      "item": "Monitor",
+      "amount": 1751.88
+    },
+    {
+      "order_id": 1137,
+      "customer": "Customer_24",
+      "item": "Monitor",
+      "amount": 1841.99
+    },
+    {
+      "order_id": 1138,
+      "customer": "Customer_25",
+      "item": "Keyboard",
+      "amount": 1093.88
+    },
+    {
+      "order_id": 1139,
+      "customer": "Customer_25",
+      "item": "Mouse",
+      "amount": 1633.97
+    },
+    {
+      "order_id": 1140,
+      "customer": "Customer_25",
+      "item": "Laptop",
+      "amount": 424.79
+    },
+    {
+      "order_id": 1141,
+      "customer": "Customer_25",
+      "item": "Laptop",
+      "amount": 1276.62
+    },
+    {
+      "order_id": 1142,
+      "customer": "Customer_25",
+      "item": "Laptop",
+      "amount": 1028.0
+    },
+    {
+      "order_id": 1143,
+      "customer": "Customer_25",
+      "item": "Keyboard",
+      "amount": 1845.92
+    },
+    {
+      "order_id": 1144,
+      "customer": "Customer_25",
+      "item": "Mouse",
+      "amount": 25.6
+    },
+    {
+      "order_id": 1145,
+      "customer": "Customer_25",
+      "item": "Laptop",
+      "amount": 379.53
+    },
+    {
+      "order_id": 1146,
+      "customer": "Customer_26",
+      "item": "Mouse",
+      "amount": 1770.86
+    },
+    {
+      "order_id": 1147,
+      "customer": "Customer_26",
+      "item": "Mouse",
+      "amount": 513.25
+    },
+    {
+      "order_id": 1148,
+      "customer": "Customer_26",
+      "item": "Dock",
+      "amount": 1607.83
+    },
+    {
+      "order_id": 1149,
+      "customer": "Customer_27",
+      "item": "Dock",
+      "amount": 1865.2
+    },
+    {
+      "order_id": 1150,
+      "customer": "Customer_27",
+      "item": "Tablet",
+      "amount": 1110.86
+    },
+    {
+      "order_id": 1151,
+      "customer": "Customer_28",
+      "item": "Laptop",
+      "amount": 1901.96
+    },
+    {
+      "order_id": 1152,
+      "customer": "Customer_28",
+      "item": "Keyboard",
+      "amount": 948.27
+    },
+    {
+      "order_id": 1153,
+      "customer": "Customer_28",
+      "item": "Monitor",
+      "amount": 1320.38
+    },
+    {
+      "order_id": 1154,
+      "customer": "Customer_28",
+      "item": "Mouse",
+      "amount": 989.12
+    },
+    {
+      "order_id": 1155,
+      "customer": "Customer_28",
+      "item": "Laptop",
+      "amount": 1915.07
+    },
+    {
+      "order_id": 1156,
+      "customer": "Customer_28",
+      "item": "Tablet",
+      "amount": 1509.34
+    },
+    {
+      "order_id": 1157,
+      "customer": "Customer_28",
+      "item": "Keyboard",
+      "amount": 1185.08
+    },
+    {
+      "order_id": 1158,
+      "customer": "Customer_28",
+      "item": "Keyboard",
+      "amount": 1842.72
+    },
+    {
+      "order_id": 1159,
+      "customer": "Customer_28",
+      "item": "Laptop",
+      "amount": 297.94
+    },
+    {
+      "order_id": 1160,
+      "customer": "Customer_28",
+      "item": "Monitor",
+      "amount": 1675.46
+    },
+    {
+      "order_id": 1161,
+      "customer": "Customer_29",
+      "item": "Tablet",
+      "amount": 1719.94
+    },
+    {
+      "order_id": 1162,
+      "customer": "Customer_29",
+      "item": "Tablet",
+      "amount": 1666.91
+    },
+    {
+      "order_id": 1163,
+      "customer": "Customer_30",
+      "item": "Dock",
+      "amount": 960.06
+    },
+    {
+      "order_id": 1164,
+      "customer": "Customer_30",
+      "item": "Keyboard",
+      "amount": 81.86
+    },
+    {
+      "order_id": 1165,
+      "customer": "Customer_30",
+      "item": "Laptop",
+      "amount": 1874.48
+    },
+    {
+      "order_id": 1166,
+      "customer": "Customer_30",
+      "item": "Monitor",
+      "amount": 656.81
+    },
+    {
+      "order_id": 1167,
+      "customer": "Customer_30",
+      "item": "Mouse",
+      "amount": 445.51
+    },
+    {
+      "order_id": 1168,
+      "customer": "Customer_30",
+      "item": "Monitor",
+      "amount": 1182.63
+    },
+    {
+      "order_id": 1169,
+      "customer": "Customer_30",
+      "item": "Mouse",
+      "amount": 1500.9
+    },
+    {
+      "order_id": 1170,
+      "customer": "Customer_31",
+      "item": "Laptop",
+      "amount": 1546.39
+    },
+    {
+      "order_id": 1171,
+      "customer": "Customer_31",
+      "item": "Monitor",
+      "amount": 858.32
+    },
+    {
+      "order_id": 1172,
+      "customer": "Customer_31",
+      "item": "Tablet",
+      "amount": 1868.52
+    },
+    {
+      "order_id": 1173,
+      "customer": "Customer_31",
+      "item": "Laptop",
+      "amount": 270.9
+    },
+    {
+      "order_id": 1174,
+      "customer": "Customer_31",
+      "item": "Keyboard",
+      "amount": 1414.6
+    },
+    {
+      "order_id": 1175,
+      "customer": "Customer_32",
+      "item": "Dock",
+      "amount": 1052.02
+    },
+    {
+      "order_id": 1176,
+      "customer": "Customer_32",
+      "item": "Monitor",
+      "amount": 111.99
+    },
+    {
+      "order_id": 1177,
+      "customer": "Customer_32",
+      "item": "Mouse",
+      "amount": 436.01
+    },
+    {
+      "order_id": 1178,
+      "customer": "Customer_32",
+      "item": "Laptop",
+      "amount": 212.82
+    },
+    {
+      "order_id": 1179,
+      "customer": "Customer_32",
+      "item": "Keyboard",
+      "amount": 1376.33
+    },
+    {
+      "order_id": 1180,
+      "customer": "Customer_32",
+      "item": "Tablet",
+      "amount": 1975.3
+    },
+    {
+      "order_id": 1181,
+      "customer": "Customer_33",
+      "item": "Laptop",
+      "amount": 545.02
+    },
+    {
+      "order_id": 1182,
+      "customer": "Customer_33",
+      "item": "Tablet",
+      "amount": 321.63
+    },
+    {
+      "order_id": 1183,
+      "customer": "Customer_33",
+      "item": "Keyboard",
+      "amount": 1923.26
+    },
+    {
+      "order_id": 1184,
+      "customer": "Customer_33",
+      "item": "Keyboard",
+      "amount": 1778.18
+    },
+    {
+      "order_id": 1185,
+      "customer": "Customer_33",
+      "item": "Keyboard",
+      "amount": 403.21
+    },
+    {
+      "order_id": 1186,
+      "customer": "Customer_33",
+      "item": "Dock",
+      "amount": 1822.56
+    },
+    {
+      "order_id": 1187,
+      "customer": "Customer_34",
+      "item": "Mouse",
+      "amount": 392.08
+    },
+    {
+      "order_id": 1188,
+      "customer": "Customer_34",
+      "item": "Tablet",
+      "amount": 645.2
+    },
+    {
+      "order_id": 1189,
+      "customer": "Customer_34",
+      "item": "Tablet",
+      "amount": 618.14
+    },
+    {
+      "order_id": 1190,
+      "customer": "Customer_34",
+      "item": "Tablet",
+      "amount": 527.21
+    },
+    {
+      "order_id": 1191,
+      "customer": "Customer_34",
+      "item": "Monitor",
+      "amount": 1414.12
+    },
+    {
+      "order_id": 1192,
+      "customer": "Customer_34",
+      "item": "Keyboard",
+      "amount": 924.81
+    },
+    {
+      "order_id": 1193,
+      "customer": "Customer_35",
+      "item": "Keyboard",
+      "amount": 652.52
+    },
+    {
+      "order_id": 1194,
+      "customer": "Customer_35",
+      "item": "Tablet",
+      "amount": 607.7
+    },
+    {
+      "order_id": 1195,
+      "customer": "Customer_35",
+      "item": "Monitor",
+      "amount": 1603.82
+    },
+    {
+      "order_id": 1196,
+      "customer": "Customer_35",
+      "item": "Monitor",
+      "amount": 1279.36
+    },
+    {
+      "order_id": 1197,
+      "customer": "Customer_35",
+      "item": "Tablet",
+      "amount": 1401.07
+    },
+    {
+      "order_id": 1198,
+      "customer": "Customer_35",
+      "item": "Keyboard",
+      "amount": 1281.5
+    },
+    {
+      "order_id": 1199,
+      "customer": "Customer_35",
+      "item": "Dock",
+      "amount": 1187.38
+    },
+    {
+      "order_id": 1200,
+      "customer": "Customer_35",
+      "item": "Dock",
+      "amount": 64.38
+    },
+    {
+      "order_id": 1201,
+      "customer": "Customer_35",
+      "item": "Keyboard",
+      "amount": 1155.09
+    },
+    {
+      "order_id": 1202,
+      "customer": "Customer_36",
+      "item": "Dock",
+      "amount": 612.76
+    },
+    {
+      "order_id": 1203,
+      "customer": "Customer_37",
+      "item": "Tablet",
+      "amount": 647.75
+    },
+    {
+      "order_id": 1204,
+      "customer": "Customer_38",
+      "item": "Laptop",
+      "amount": 1378.87
+    },
+    {
+      "order_id": 1205,
+      "customer": "Customer_38",
+      "item": "Mouse",
+      "amount": 823.86
+    },
+    {
+      "order_id": 1206,
+      "customer": "Customer_38",
+      "item": "Tablet",
+      "amount": 256.85
+    },
+    {
+      "order_id": 1207,
+      "customer": "Customer_39",
+      "item": "Keyboard",
+      "amount": 1962.88
+    },
+    {
+      "order_id": 1208,
+      "customer": "Customer_39",
+      "item": "Monitor",
+      "amount": 474.08
+    },
+    {
+      "order_id": 1209,
+      "customer": "Customer_39",
+      "item": "Monitor",
+      "amount": 989.42
+    },
+    {
+      "order_id": 1210,
+      "customer": "Customer_39",
+      "item": "Keyboard",
+      "amount": 468.06
+    },
+    {
+      "order_id": 1211,
+      "customer": "Customer_40",
+      "item": "Laptop",
+      "amount": 1491.73
+    },
+    {
+      "order_id": 1212,
+      "customer": "Customer_40",
+      "item": "Laptop",
+      "amount": 1915.9
+    },
+    {
+      "order_id": 1213,
+      "customer": "Customer_40",
+      "item": "Monitor",
+      "amount": 1269.56
+    },
+    {
+      "order_id": 1214,
+      "customer": "Customer_40",
+      "item": "Mouse",
+      "amount": 700.79
+    },
+    {
+      "order_id": 1215,
+      "customer": "Customer_40",
+      "item": "Tablet",
+      "amount": 1619.44
+    },
+    {
+      "order_id": 1216,
+      "customer": "Customer_40",
+      "item": "Tablet",
+      "amount": 1429.3
+    },
+    {
+      "order_id": 1217,
+      "customer": "Customer_41",
+      "item": "Mouse",
+      "amount": 90.11
+    },
+    {
+      "order_id": 1218,
+      "customer": "Customer_41",
+      "item": "Mouse",
+      "amount": 1304.92
+    },
+    {
+      "order_id": 1219,
+      "customer": "Customer_41",
+      "item": "Keyboard",
+      "amount": 1614.11
+    },
+    {
+      "order_id": 1220,
+      "customer": "Customer_41",
+      "item": "Mouse",
+      "amount": 1802.1
+    },
+    {
+      "order_id": 1221,
+      "customer": "Customer_41",
+      "item": "Tablet",
+      "amount": 1424.58
+    },
+    {
+      "order_id": 1222,
+      "customer": "Customer_41",
+      "item": "Dock",
+      "amount": 764.96
+    },
+    {
+      "order_id": 1223,
+      "customer": "Customer_41",
+      "item": "Keyboard",
+      "amount": 548.18
+    },
+    {
+      "order_id": 1224,
+      "customer": "Customer_41",
+      "item": "Laptop",
+      "amount": 448.59
+    },
+    {
+      "order_id": 1225,
+      "customer": "Customer_41",
+      "item": "Monitor",
+      "amount": 873.35
+    },
+    {
+      "order_id": 1226,
+      "customer": "Customer_42",
+      "item": "Dock",
+      "amount": 673.58
+    },
+    {
+      "order_id": 1227,
+      "customer": "Customer_42",
+      "item": "Dock",
+      "amount": 758.97
+    },
+    {
+      "order_id": 1228,
+      "customer": "Customer_42",
+      "item": "Monitor",
+      "amount": 1297.92
+    },
+    {
+      "order_id": 1229,
+      "customer": "Customer_43",
+      "item": "Tablet",
+      "amount": 1067.15
+    },
+    {
+      "order_id": 1230,
+      "customer": "Customer_43",
+      "item": "Laptop",
+      "amount": 1330.5
+    },
+    {
+      "order_id": 1231,
+      "customer": "Customer_43",
+      "item": "Keyboard",
+      "amount": 525.49
+    },
+    {
+      "order_id": 1232,
+      "customer": "Customer_43",
+      "item": "Monitor",
+      "amount": 1930.22
+    },
+    {
+      "order_id": 1233,
+      "customer": "Customer_43",
+      "item": "Laptop",
+      "amount": 620.91
+    },
+    {
+      "order_id": 1234,
+      "customer": "Customer_43",
+      "item": "Dock",
+      "amount": 1085.16
+    },
+    {
+      "order_id": 1235,
+      "customer": "Customer_44",
+      "item": "Mouse",
+      "amount": 714.33
+    },
+    {
+      "order_id": 1236,
+      "customer": "Customer_44",
+      "item": "Dock",
+      "amount": 988.23
+    },
+    {
+      "order_id": 1237,
+      "customer": "Customer_44",
+      "item": "Monitor",
+      "amount": 310.41
+    },
+    {
+      "order_id": 1238,
+      "customer": "Customer_44",
+      "item": "Mouse",
+      "amount": 1021.34
+    },
+    {
+      "order_id": 1239,
+      "customer": "Customer_44",
+      "item": "Mouse",
+      "amount": 627.2
+    },
+    {
+      "order_id": 1240,
+      "customer": "Customer_44",
+      "item": "Dock",
+      "amount": 1513.33
+    },
+    {
+      "order_id": 1241,
+      "customer": "Customer_44",
+      "item": "Mouse",
+      "amount": 1922.14
+    },
+    {
+      "order_id": 1242,
+      "customer": "Customer_44",
+      "item": "Keyboard",
+      "amount": 81.21
+    },
+    {
+      "order_id": 1243,
+      "customer": "Customer_45",
+      "item": "Keyboard",
+      "amount": 1595.11
+    },
+    {
+      "order_id": 1244,
+      "customer": "Customer_45",
+      "item": "Keyboard",
+      "amount": 1754.67
+    },
+    {
+      "order_id": 1245,
+      "customer": "Customer_45",
+      "item": "Keyboard",
+      "amount": 463.01
+    },
+    {
+      "order_id": 1246,
+      "customer": "Customer_45",
+      "item": "Dock",
+      "amount": 1660.57
+    },
+    {
+      "order_id": 1247,
+      "customer": "Customer_45",
+      "item": "Dock",
+      "amount": 1632.78
+    },
+    {
+      "order_id": 1248,
+      "customer": "Customer_45",
+      "item": "Keyboard",
+      "amount": 554.13
+    },
+    {
+      "order_id": 1249,
+      "customer": "Customer_46",
+      "item": "Tablet",
+      "amount": 144.81
+    },
+    {
+      "order_id": 1250,
+      "customer": "Customer_46",
+      "item": "Mouse",
+      "amount": 329.27
+    },
+    {
+      "order_id": 1251,
+      "customer": "Customer_47",
+      "item": "Tablet",
+      "amount": 734.42
+    },
+    {
+      "order_id": 1252,
+      "customer": "Customer_47",
+      "item": "Tablet",
+      "amount": 959.39
+    },
+    {
+      "order_id": 1253,
+      "customer": "Customer_47",
+      "item": "Tablet",
+      "amount": 1383.29
+    },
+    {
+      "order_id": 1254,
+      "customer": "Customer_47",
+      "item": "Laptop",
+      "amount": 1166.43
+    },
+    {
+      "order_id": 1255,
+      "customer": "Customer_48",
+      "item": "Dock",
+      "amount": 1068.56
+    },
+    {
+      "order_id": 1256,
+      "customer": "Customer_48",
+      "item": "Laptop",
+      "amount": 1710.35
+    },
+    {
+      "order_id": 1257,
+      "customer": "Customer_48",
+      "item": "Tablet",
+      "amount": 1438.78
+    },
+    {
+      "order_id": 1258,
+      "customer": "Customer_48",
+      "item": "Laptop",
+      "amount": 1342.1
+    },
+    {
+      "order_id": 1259,
+      "customer": "Customer_48",
+      "item": "Tablet",
+      "amount": 256.5
+    },
+    {
+      "order_id": 1260,
+      "customer": "Customer_48",
+      "item": "Tablet",
+      "amount": 1747.39
+    },
+    {
+      "order_id": 1261,
+      "customer": "Customer_48",
+      "item": "Dock",
+      "amount": 742.3
+    },
+    {
+      "order_id": 1262,
+      "customer": "Customer_48",
+      "item": "Laptop",
+      "amount": 1734.18
+    },
+    {
+      "order_id": 1263,
+      "customer": "Customer_48",
+      "item": "Monitor",
+      "amount": 674.68
+    },
+    {
+      "order_id": 1264,
+      "customer": "Customer_48",
+      "item": "Keyboard",
+      "amount": 1562.06
+    },
+    {
+      "order_id": 1265,
+      "customer": "Customer_49",
+      "item": "Laptop",
+      "amount": 274.35
+    },
+    {
+      "order_id": 1266,
+      "customer": "Customer_49",
+      "item": "Monitor",
+      "amount": 1781.55
+    },
+    {
+      "order_id": 1267,
+      "customer": "Customer_49",
+      "item": "Tablet",
+      "amount": 1617.19
+    },
+    {
+      "order_id": 1268,
+      "customer": "Customer_49",
+      "item": "Keyboard",
+      "amount": 1345.43
+    },
+    {
+      "order_id": 1269,
+      "customer": "Customer_50",
+      "item": "Monitor",
+      "amount": 545.89
+    },
+    {
+      "order_id": 1270,
+      "customer": "Customer_51",
+      "item": "Keyboard",
+      "amount": 287.75
+    },
+    {
+      "order_id": 1271,
+      "customer": "Customer_51",
+      "item": "Mouse",
+      "amount": 1444.97
+    },
+    {
+      "order_id": 1272,
+      "customer": "Customer_51",
+      "item": "Monitor",
+      "amount": 1955.68
+    },
+    {
+      "order_id": 1273,
+      "customer": "Customer_51",
+      "item": "Tablet",
+      "amount": 1051.07
+    },
+    {
+      "order_id": 1274,
+      "customer": "Customer_52",
+      "item": "Laptop",
+      "amount": 1917.55
+    },
+    {
+      "order_id": 1275,
+      "customer": "Customer_52",
+      "item": "Keyboard",
+      "amount": 1608.49
+    },
+    {
+      "order_id": 1276,
+      "customer": "Customer_52",
+      "item": "Dock",
+      "amount": 1623.96
+    },
+    {
+      "order_id": 1277,
+      "customer": "Customer_52",
+      "item": "Dock",
+      "amount": 435.84
+    },
+    {
+      "order_id": 1278,
+      "customer": "Customer_52",
+      "item": "Mouse",
+      "amount": 1365.42
+    },
+    {
+      "order_id": 1279,
+      "customer": "Customer_53",
+      "item": "Mouse",
+      "amount": 1370.52
+    },
+    {
+      "order_id": 1280,
+      "customer": "Customer_53",
+      "item": "Dock",
+      "amount": 1559.37
+    },
+    {
+      "order_id": 1281,
+      "customer": "Customer_53",
+      "item": "Tablet",
+      "amount": 1922.53
+    },
+    {
+      "order_id": 1282,
+      "customer": "Customer_53",
+      "item": "Mouse",
+      "amount": 1983.44
+    },
+    {
+      "order_id": 1283,
+      "customer": "Customer_53",
+      "item": "Monitor",
+      "amount": 86.78
+    },
+    {
+      "order_id": 1284,
+      "customer": "Customer_53",
+      "item": "Tablet",
+      "amount": 677.93
+    },
+    {
+      "order_id": 1285,
+      "customer": "Customer_53",
+      "item": "Tablet",
+      "amount": 1381.35
+    },
+    {
+      "order_id": 1286,
+      "customer": "Customer_53",
+      "item": "Dock",
+      "amount": 962.56
+    },
+    {
+      "order_id": 1287,
+      "customer": "Customer_53",
+      "item": "Laptop",
+      "amount": 708.59
+    },
+    {
+      "order_id": 1288,
+      "customer": "Customer_54",
+      "item": "Monitor",
+      "amount": 671.96
+    },
+    {
+      "order_id": 1289,
+      "customer": "Customer_54",
+      "item": "Monitor",
+      "amount": 1233.67
+    },
+    {
+      "order_id": 1290,
+      "customer": "Customer_55",
+      "item": "Dock",
+      "amount": 979.69
+    },
+    {
+      "order_id": 1291,
+      "customer": "Customer_55",
+      "item": "Monitor",
+      "amount": 1173.6
+    },
+    {
+      "order_id": 1292,
+      "customer": "Customer_55",
+      "item": "Keyboard",
+      "amount": 815.76
+    },
+    {
+      "order_id": 1293,
+      "customer": "Customer_55",
+      "item": "Mouse",
+      "amount": 907.53
+    },
+    {
+      "order_id": 1294,
+      "customer": "Customer_55",
+      "item": "Keyboard",
+      "amount": 1863.08
+    },
+    {
+      "order_id": 1295,
+      "customer": "Customer_55",
+      "item": "Tablet",
+      "amount": 849.95
+    },
+    {
+      "order_id": 1296,
+      "customer": "Customer_55",
+      "item": "Laptop",
+      "amount": 1528.91
+    },
+    {
+      "order_id": 1297,
+      "customer": "Customer_55",
+      "item": "Mouse",
+      "amount": 1151.58
+    },
+    {
+      "order_id": 1298,
+      "customer": "Customer_55",
+      "item": "Laptop",
+      "amount": 92.62
+    },
+    {
+      "order_id": 1299,
+      "customer": "Customer_56",
+      "item": "Keyboard",
+      "amount": 183.09
+    },
+    {
+      "order_id": 1300,
+      "customer": "Customer_56",
+      "item": "Mouse",
+      "amount": 323.54
+    },
+    {
+      "order_id": 1301,
+      "customer": "Customer_56",
+      "item": "Laptop",
+      "amount": 1003.16
+    },
+    {
+      "order_id": 1302,
+      "customer": "Customer_56",
+      "item": "Tablet",
+      "amount": 1660.89
+    },
+    {
+      "order_id": 1303,
+      "customer": "Customer_56",
+      "item": "Dock",
+      "amount": 533.31
+    },
+    {
+      "order_id": 1304,
+      "customer": "Customer_57",
+      "item": "Dock",
+      "amount": 627.03
+    },
+    {
+      "order_id": 1305,
+      "customer": "Customer_57",
+      "item": "Tablet",
+      "amount": 412.47
+    },
+    {
+      "order_id": 1306,
+      "customer": "Customer_57",
+      "item": "Dock",
+      "amount": 1569.13
+    },
+    {
+      "order_id": 1307,
+      "customer": "Customer_58",
+      "item": "Monitor",
+      "amount": 952.58
+    },
+    {
+      "order_id": 1308,
+      "customer": "Customer_58",
+      "item": "Tablet",
+      "amount": 1985.71
+    },
+    {
+      "order_id": 1309,
+      "customer": "Customer_58",
+      "item": "Tablet",
+      "amount": 1276.58
+    },
+    {
+      "order_id": 1310,
+      "customer": "Customer_58",
+      "item": "Laptop",
+      "amount": 258.94
+    },
+    {
+      "order_id": 1311,
+      "customer": "Customer_58",
+      "item": "Keyboard",
+      "amount": 394.71
+    },
+    {
+      "order_id": 1312,
+      "customer": "Customer_58",
+      "item": "Dock",
+      "amount": 179.66
+    },
+    {
+      "order_id": 1313,
+      "customer": "Customer_59",
+      "item": "Tablet",
+      "amount": 1008.12
+    },
+    {
+      "order_id": 1314,
+      "customer": "Customer_59",
+      "item": "Mouse",
+      "amount": 1673.63
+    },
+    {
+      "order_id": 1315,
+      "customer": "Customer_59",
+      "item": "Laptop",
+      "amount": 1187.03
+    },
+    {
+      "order_id": 1316,
+      "customer": "Customer_59",
+      "item": "Mouse",
+      "amount": 801.43
+    },
+    {
+      "order_id": 1317,
+      "customer": "Customer_59",
+      "item": "Mouse",
+      "amount": 1040.06
+    },
+    {
+      "order_id": 1318,
+      "customer": "Customer_60",
+      "item": "Monitor",
+      "amount": 1055.14
+    },
+    {
+      "order_id": 1319,
+      "customer": "Customer_60",
+      "item": "Laptop",
+      "amount": 1930.38
+    },
+    {
+      "order_id": 1320,
+      "customer": "Customer_61",
+      "item": "Tablet",
+      "amount": 438.26
+    },
+    {
+      "order_id": 1321,
+      "customer": "Customer_61",
+      "item": "Keyboard",
+      "amount": 911.15
+    },
+    {
+      "order_id": 1322,
+      "customer": "Customer_61",
+      "item": "Tablet",
+      "amount": 1497.46
+    },
+    {
+      "order_id": 1323,
+      "customer": "Customer_61",
+      "item": "Keyboard",
+      "amount": 747.72
+    },
+    {
+      "order_id": 1324,
+      "customer": "Customer_61",
+      "item": "Dock",
+      "amount": 1872.02
+    },
+    {
+      "order_id": 1325,
+      "customer": "Customer_62",
+      "item": "Dock",
+      "amount": 1001.5
+    },
+    {
+      "order_id": 1326,
+      "customer": "Customer_62",
+      "item": "Monitor",
+      "amount": 1442.69
+    },
+    {
+      "order_id": 1327,
+      "customer": "Customer_62",
+      "item": "Keyboard",
+      "amount": 675.39
+    },
+    {
+      "order_id": 1328,
+      "customer": "Customer_62",
+      "item": "Tablet",
+      "amount": 191.23
+    },
+    {
+      "order_id": 1329,
+      "customer": "Customer_62",
+      "item": "Monitor",
+      "amount": 1771.96
+    },
+    {
+      "order_id": 1330,
+      "customer": "Customer_62",
+      "item": "Monitor",
+      "amount": 1080.05
+    },
+    {
+      "order_id": 1331,
+      "customer": "Customer_62",
+      "item": "Dock",
+      "amount": 781.44
+    },
+    {
+      "order_id": 1332,
+      "customer": "Customer_62",
+      "item": "Dock",
+      "amount": 385.75
+    },
+    {
+      "order_id": 1333,
+      "customer": "Customer_62",
+      "item": "Keyboard",
+      "amount": 1293.51
+    },
+    {
+      "order_id": 1334,
+      "customer": "Customer_63",
+      "item": "Tablet",
+      "amount": 1744.59
+    },
+    {
+      "order_id": 1335,
+      "customer": "Customer_63",
+      "item": "Monitor",
+      "amount": 97.67
+    },
+    {
+      "order_id": 1336,
+      "customer": "Customer_63",
+      "item": "Laptop",
+      "amount": 1374.53
+    },
+    {
+      "order_id": 1337,
+      "customer": "Customer_63",
+      "item": "Keyboard",
+      "amount": 942.05
+    },
+    {
+      "order_id": 1338,
+      "customer": "Customer_63",
+      "item": "Mouse",
+      "amount": 1075.51
+    },
+    {
+      "order_id": 1339,
+      "customer": "Customer_63",
+      "item": "Laptop",
+      "amount": 139.52
+    },
+    {
+      "order_id": 1340,
+      "customer": "Customer_63",
+      "item": "Monitor",
+      "amount": 1336.51
+    },
+    {
+      "order_id": 1341,
+      "customer": "Customer_63",
+      "item": "Mouse",
+      "amount": 1805.93
+    },
+    {
+      "order_id": 1342,
+      "customer": "Customer_63",
+      "item": "Mouse",
+      "amount": 624.0
+    },
+    {
+      "order_id": 1343,
+      "customer": "Customer_63",
+      "item": "Monitor",
+      "amount": 868.87
+    },
+    {
+      "order_id": 1344,
+      "customer": "Customer_64",
+      "item": "Laptop",
+      "amount": 776.68
+    },
+    {
+      "order_id": 1345,
+      "customer": "Customer_64",
+      "item": "Mouse",
+      "amount": 138.22
+    },
+    {
+      "order_id": 1346,
+      "customer": "Customer_64",
+      "item": "Dock",
+      "amount": 1531.49
+    },
+    {
+      "order_id": 1347,
+      "customer": "Customer_64",
+      "item": "Mouse",
+      "amount": 343.11
+    },
+    {
+      "order_id": 1348,
+      "customer": "Customer_64",
+      "item": "Monitor",
+      "amount": 1500.67
+    },
+    {
+      "order_id": 1349,
+      "customer": "Customer_65",
+      "item": "Monitor",
+      "amount": 279.88
+    },
+    {
+      "order_id": 1350,
+      "customer": "Customer_65",
+      "item": "Laptop",
+      "amount": 1593.16
+    },
+    {
+      "order_id": 1351,
+      "customer": "Customer_65",
+      "item": "Monitor",
+      "amount": 394.18
+    },
+    {
+      "order_id": 1352,
+      "customer": "Customer_66",
+      "item": "Mouse",
+      "amount": 1043.13
+    },
+    {
+      "order_id": 1353,
+      "customer": "Customer_66",
+      "item": "Mouse",
+      "amount": 1969.11
+    },
+    {
+      "order_id": 1354,
+      "customer": "Customer_67",
+      "item": "Dock",
+      "amount": 943.18
+    },
+    {
+      "order_id": 1355,
+      "customer": "Customer_67",
+      "item": "Keyboard",
+      "amount": 1806.09
+    },
+    {
+      "order_id": 1356,
+      "customer": "Customer_67",
+      "item": "Mouse",
+      "amount": 147.93
+    },
+    {
+      "order_id": 1357,
+      "customer": "Customer_67",
+      "item": "Tablet",
+      "amount": 820.08
+    },
+    {
+      "order_id": 1358,
+      "customer": "Customer_67",
+      "item": "Keyboard",
+      "amount": 1666.21
+    },
+    {
+      "order_id": 1359,
+      "customer": "Customer_67",
+      "item": "Tablet",
+      "amount": 1937.45
+    },
+    {
+      "order_id": 1360,
+      "customer": "Customer_67",
+      "item": "Tablet",
+      "amount": 1489.95
+    },
+    {
+      "order_id": 1361,
+      "customer": "Customer_67",
+      "item": "Monitor",
+      "amount": 234.97
+    },
+    {
+      "order_id": 1362,
+      "customer": "Customer_67",
+      "item": "Monitor",
+      "amount": 1418.85
+    },
+    {
+      "order_id": 1363,
+      "customer": "Customer_67",
+      "item": "Keyboard",
+      "amount": 920.61
+    },
+    {
+      "order_id": 1364,
+      "customer": "Customer_68",
+      "item": "Mouse",
+      "amount": 1210.55
+    },
+    {
+      "order_id": 1365,
+      "customer": "Customer_68",
+      "item": "Dock",
+      "amount": 572.34
+    },
+    {
+      "order_id": 1366,
+      "customer": "Customer_68",
+      "item": "Monitor",
+      "amount": 838.54
+    },
+    {
+      "order_id": 1367,
+      "customer": "Customer_68",
+      "item": "Tablet",
+      "amount": 240.16
+    },
+    {
+      "order_id": 1368,
+      "customer": "Customer_68",
+      "item": "Tablet",
+      "amount": 611.21
+    },
+    {
+      "order_id": 1369,
+      "customer": "Customer_68",
+      "item": "Tablet",
+      "amount": 701.32
+    },
+    {
+      "order_id": 1370,
+      "customer": "Customer_68",
+      "item": "Keyboard",
+      "amount": 1938.95
+    },
+    {
+      "order_id": 1371,
+      "customer": "Customer_68",
+      "item": "Laptop",
+      "amount": 1793.39
+    },
+    {
+      "order_id": 1372,
+      "customer": "Customer_68",
+      "item": "Monitor",
+      "amount": 972.37
+    },
+    {
+      "order_id": 1373,
+      "customer": "Customer_69",
+      "item": "Tablet",
+      "amount": 661.83
+    },
+    {
+      "order_id": 1374,
+      "customer": "Customer_69",
+      "item": "Tablet",
+      "amount": 1392.6
+    },
+    {
+      "order_id": 1375,
+      "customer": "Customer_69",
+      "item": "Dock",
+      "amount": 1086.55
+    },
+    {
+      "order_id": 1376,
+      "customer": "Customer_69",
+      "item": "Laptop",
+      "amount": 1905.32
+    },
+    {
+      "order_id": 1377,
+      "customer": "Customer_69",
+      "item": "Monitor",
+      "amount": 1888.89
+    },
+    {
+      "order_id": 1378,
+      "customer": "Customer_69",
+      "item": "Tablet",
+      "amount": 369.03
+    },
+    {
+      "order_id": 1379,
+      "customer": "Customer_69",
+      "item": "Keyboard",
+      "amount": 1098.63
+    },
+    {
+      "order_id": 1380,
+      "customer": "Customer_70",
+      "item": "Keyboard",
+      "amount": 1895.07
+    },
+    {
+      "order_id": 1381,
+      "customer": "Customer_71",
+      "item": "Dock",
+      "amount": 1424.57
+    },
+    {
+      "order_id": 1382,
+      "customer": "Customer_71",
+      "item": "Laptop",
+      "amount": 495.01
+    },
+    {
+      "order_id": 1383,
+      "customer": "Customer_71",
+      "item": "Tablet",
+      "amount": 1449.72
+    },
+    {
+      "order_id": 1384,
+      "customer": "Customer_71",
+      "item": "Laptop",
+      "amount": 1766.95
+    },
+    {
+      "order_id": 1385,
+      "customer": "Customer_71",
+      "item": "Monitor",
+      "amount": 695.46
+    },
+    {
+      "order_id": 1386,
+      "customer": "Customer_71",
+      "item": "Monitor",
+      "amount": 205.68
+    },
+    {
+      "order_id": 1387,
+      "customer": "Customer_72",
+      "item": "Keyboard",
+      "amount": 1960.86
+    },
+    {
+      "order_id": 1388,
+      "customer": "Customer_72",
+      "item": "Keyboard",
+      "amount": 235.89
+    },
+    {
+      "order_id": 1389,
+      "customer": "Customer_72",
+      "item": "Laptop",
+      "amount": 296.11
+    },
+    {
+      "order_id": 1390,
+      "customer": "Customer_72",
+      "item": "Tablet",
+      "amount": 462.63
+    },
+    {
+      "order_id": 1391,
+      "customer": "Customer_72",
+      "item": "Dock",
+      "amount": 208.17
+    },
+    {
+      "order_id": 1392,
+      "customer": "Customer_72",
+      "item": "Laptop",
+      "amount": 727.26
+    },
+    {
+      "order_id": 1393,
+      "customer": "Customer_72",
+      "item": "Laptop",
+      "amount": 1722.25
+    },
+    {
+      "order_id": 1394,
+      "customer": "Customer_72",
+      "item": "Mouse",
+      "amount": 598.44
+    },
+    {
+      "order_id": 1395,
+      "customer": "Customer_72",
+      "item": "Dock",
+      "amount": 1719.66
+    },
+    {
+      "order_id": 1396,
+      "customer": "Customer_73",
+      "item": "Laptop",
+      "amount": 689.74
+    },
+    {
+      "order_id": 1397,
+      "customer": "Customer_73",
+      "item": "Mouse",
+      "amount": 1804.25
+    },
+    {
+      "order_id": 1398,
+      "customer": "Customer_73",
+      "item": "Tablet",
+      "amount": 1129.53
+    },
+    {
+      "order_id": 1399,
+      "customer": "Customer_73",
+      "item": "Tablet",
+      "amount": 1622.25
+    },
+    {
+      "order_id": 1400,
+      "customer": "Customer_73",
+      "item": "Laptop",
+      "amount": 242.77
+    },
+    {
+      "order_id": 1401,
+      "customer": "Customer_73",
+      "item": "Monitor",
+      "amount": 955.41
+    },
+    {
+      "order_id": 1402,
+      "customer": "Customer_74",
+      "item": "Dock",
+      "amount": 95.08
+    },
+    {
+      "order_id": 1403,
+      "customer": "Customer_74",
+      "item": "Mouse",
+      "amount": 1985.96
+    },
+    {
+      "order_id": 1404,
+      "customer": "Customer_74",
+      "item": "Tablet",
+      "amount": 726.41
+    },
+    {
+      "order_id": 1405,
+      "customer": "Customer_74",
+      "item": "Dock",
+      "amount": 1946.54
+    },
+    {
+      "order_id": 1406,
+      "customer": "Customer_74",
+      "item": "Mouse",
+      "amount": 1782.05
+    },
+    {
+      "order_id": 1407,
+      "customer": "Customer_74",
+      "item": "Tablet",
+      "amount": 1952.11
+    },
+    {
+      "order_id": 1408,
+      "customer": "Customer_75",
+      "item": "Mouse",
+      "amount": 908.35
+    },
+    {
+      "order_id": 1409,
+      "customer": "Customer_75",
+      "item": "Tablet",
+      "amount": 851.04
+    },
+    {
+      "order_id": 1410,
+      "customer": "Customer_75",
+      "item": "Monitor",
+      "amount": 1422.19
+    },
+    {
+      "order_id": 1411,
+      "customer": "Customer_76",
+      "item": "Keyboard",
+      "amount": 1432.14
+    },
+    {
+      "order_id": 1412,
+      "customer": "Customer_76",
+      "item": "Keyboard",
+      "amount": 1239.41
+    },
+    {
+      "order_id": 1413,
+      "customer": "Customer_76",
+      "item": "Tablet",
+      "amount": 637.89
+    },
+    {
+      "order_id": 1414,
+      "customer": "Customer_76",
+      "item": "Laptop",
+      "amount": 1985.46
+    },
+    {
+      "order_id": 1415,
+      "customer": "Customer_76",
+      "item": "Keyboard",
+      "amount": 755.36
+    },
+    {
+      "order_id": 1416,
+      "customer": "Customer_76",
+      "item": "Laptop",
+      "amount": 891.11
+    },
+    {
+      "order_id": 1417,
+      "customer": "Customer_76",
+      "item": "Dock",
+      "amount": 234.16
+    },
+    {
+      "order_id": 1418,
+      "customer": "Customer_76",
+      "item": "Tablet",
+      "amount": 1233.15
+    },
+    {
+      "order_id": 1419,
+      "customer": "Customer_76",
+      "item": "Dock",
+      "amount": 1844.72
+    },
+    {
+      "order_id": 1420,
+      "customer": "Customer_77",
+      "item": "Mouse",
+      "amount": 1010.54
+    },
+    {
+      "order_id": 1421,
+      "customer": "Customer_77",
+      "item": "Dock",
+      "amount": 1066.87
+    },
+    {
+      "order_id": 1422,
+      "customer": "Customer_77",
+      "item": "Keyboard",
+      "amount": 116.26
+    },
+    {
+      "order_id": 1423,
+      "customer": "Customer_78",
+      "item": "Dock",
+      "amount": 1497.15
+    },
+    {
+      "order_id": 1424,
+      "customer": "Customer_78",
+      "item": "Mouse",
+      "amount": 1819.63
+    },
+    {
+      "order_id": 1425,
+      "customer": "Customer_78",
+      "item": "Keyboard",
+      "amount": 613.48
+    },
+    {
+      "order_id": 1426,
+      "customer": "Customer_78",
+      "item": "Dock",
+      "amount": 863.84
+    },
+    {
+      "order_id": 1427,
+      "customer": "Customer_78",
+      "item": "Laptop",
+      "amount": 1118.91
+    },
+    {
+      "order_id": 1428,
+      "customer": "Customer_78",
+      "item": "Tablet",
+      "amount": 1360.52
+    },
+    {
+      "order_id": 1429,
+      "customer": "Customer_78",
+      "item": "Monitor",
+      "amount": 1993.02
+    },
+    {
+      "order_id": 1430,
+      "customer": "Customer_78",
+      "item": "Laptop",
+      "amount": 1298.23
+    },
+    {
+      "order_id": 1431,
+      "customer": "Customer_78",
+      "item": "Mouse",
+      "amount": 1625.7
+    },
+    {
+      "order_id": 1432,
+      "customer": "Customer_79",
+      "item": "Laptop",
+      "amount": 1255.96
+    },
+    {
+      "order_id": 1433,
+      "customer": "Customer_79",
+      "item": "Monitor",
+      "amount": 1184.68
+    },
+    {
+      "order_id": 1434,
+      "customer": "Customer_79",
+      "item": "Mouse",
+      "amount": 1792.12
+    },
+    {
+      "order_id": 1435,
+      "customer": "Customer_79",
+      "item": "Mouse",
+      "amount": 198.75
+    },
+    {
+      "order_id": 1436,
+      "customer": "Customer_79",
+      "item": "Keyboard",
+      "amount": 624.47
+    },
+    {
+      "order_id": 1437,
+      "customer": "Customer_79",
+      "item": "Dock",
+      "amount": 1673.8
+    },
+    {
+      "order_id": 1438,
+      "customer": "Customer_79",
+      "item": "Monitor",
+      "amount": 889.49
+    },
+    {
+      "order_id": 1439,
+      "customer": "Customer_79",
+      "item": "Laptop",
+      "amount": 1245.58
+    },
+    {
+      "order_id": 1440,
+      "customer": "Customer_80",
+      "item": "Tablet",
+      "amount": 25.18
+    },
+    {
+      "order_id": 1441,
+      "customer": "Customer_80",
+      "item": "Monitor",
+      "amount": 939.77
+    },
+    {
+      "order_id": 1442,
+      "customer": "Customer_80",
+      "item": "Dock",
+      "amount": 1714.62
+    },
+    {
+      "order_id": 1443,
+      "customer": "Customer_80",
+      "item": "Mouse",
+      "amount": 1315.61
+    },
+    {
+      "order_id": 1444,
+      "customer": "Customer_80",
+      "item": "Mouse",
+      "amount": 199.45
+    },
+    {
+      "order_id": 1445,
+      "customer": "Customer_80",
+      "item": "Tablet",
+      "amount": 1621.0
+    },
+    {
+      "order_id": 1446,
+      "customer": "Customer_80",
+      "item": "Mouse",
+      "amount": 681.89
+    },
+    {
+      "order_id": 1447,
+      "customer": "Customer_81",
+      "item": "Monitor",
+      "amount": 1097.05
+    },
+    {
+      "order_id": 1448,
+      "customer": "Customer_81",
+      "item": "Monitor",
+      "amount": 188.96
+    },
+    {
+      "order_id": 1449,
+      "customer": "Customer_82",
+      "item": "Mouse",
+      "amount": 1731.22
+    },
+    {
+      "order_id": 1450,
+      "customer": "Customer_82",
+      "item": "Tablet",
+      "amount": 1823.46
+    },
+    {
+      "order_id": 1451,
+      "customer": "Customer_82",
+      "item": "Dock",
+      "amount": 1709.31
+    },
+    {
+      "order_id": 1452,
+      "customer": "Customer_82",
+      "item": "Keyboard",
+      "amount": 1141.26
+    },
+    {
+      "order_id": 1453,
+      "customer": "Customer_82",
+      "item": "Laptop",
+      "amount": 509.71
+    },
+    {
+      "order_id": 1454,
+      "customer": "Customer_82",
+      "item": "Keyboard",
+      "amount": 166.22
+    },
+    {
+      "order_id": 1455,
+      "customer": "Customer_82",
+      "item": "Tablet",
+      "amount": 74.9
+    },
+    {
+      "order_id": 1456,
+      "customer": "Customer_82",
+      "item": "Laptop",
+      "amount": 700.99
+    },
+    {
+      "order_id": 1457,
+      "customer": "Customer_82",
+      "item": "Monitor",
+      "amount": 633.95
+    },
+    {
+      "order_id": 1458,
+      "customer": "Customer_83",
+      "item": "Mouse",
+      "amount": 1773.66
+    },
+    {
+      "order_id": 1459,
+      "customer": "Customer_83",
+      "item": "Dock",
+      "amount": 1311.19
+    },
+    {
+      "order_id": 1460,
+      "customer": "Customer_83",
+      "item": "Laptop",
+      "amount": 1221.13
+    },
+    {
+      "order_id": 1461,
+      "customer": "Customer_83",
+      "item": "Keyboard",
+      "amount": 127.56
+    },
+    {
+      "order_id": 1462,
+      "customer": "Customer_83",
+      "item": "Mouse",
+      "amount": 980.97
+    },
+    {
+      "order_id": 1463,
+      "customer": "Customer_83",
+      "item": "Dock",
+      "amount": 206.39
+    },
+    {
+      "order_id": 1464,
+      "customer": "Customer_83",
+      "item": "Laptop",
+      "amount": 56.38
+    },
+    {
+      "order_id": 1465,
+      "customer": "Customer_83",
+      "item": "Tablet",
+      "amount": 1628.88
+    },
+    {
+      "order_id": 1466,
+      "customer": "Customer_83",
+      "item": "Keyboard",
+      "amount": 750.57
+    },
+    {
+      "order_id": 1467,
+      "customer": "Customer_83",
+      "item": "Keyboard",
+      "amount": 247.2
+    },
+    {
+      "order_id": 1468,
+      "customer": "Customer_84",
+      "item": "Tablet",
+      "amount": 545.03
+    },
+    {
+      "order_id": 1469,
+      "customer": "Customer_84",
+      "item": "Tablet",
+      "amount": 1402.53
+    },
+    {
+      "order_id": 1470,
+      "customer": "Customer_84",
+      "item": "Monitor",
+      "amount": 454.52
+    },
+    {
+      "order_id": 1471,
+      "customer": "Customer_84",
+      "item": "Monitor",
+      "amount": 160.91
+    },
+    {
+      "order_id": 1472,
+      "customer": "Customer_84",
+      "item": "Monitor",
+      "amount": 261.74
+    },
+    {
+      "order_id": 1473,
+      "customer": "Customer_84",
+      "item": "Laptop",
+      "amount": 731.05
+    },
+    {
+      "order_id": 1474,
+      "customer": "Customer_84",
+      "item": "Dock",
+      "amount": 964.13
+    },
+    {
+      "order_id": 1475,
+      "customer": "Customer_84",
+      "item": "Keyboard",
+      "amount": 467.75
+    },
+    {
+      "order_id": 1476,
+      "customer": "Customer_84",
+      "item": "Mouse",
+      "amount": 424.8
+    },
+    {
+      "order_id": 1477,
+      "customer": "Customer_85",
+      "item": "Tablet",
+      "amount": 917.86
+    },
+    {
+      "order_id": 1478,
+      "customer": "Customer_85",
+      "item": "Keyboard",
+      "amount": 1568.3
+    },
+    {
+      "order_id": 1479,
+      "customer": "Customer_86",
+      "item": "Dock",
+      "amount": 1910.19
+    },
+    {
+      "order_id": 1480,
+      "customer": "Customer_86",
+      "item": "Keyboard",
+      "amount": 1059.2
+    },
+    {
+      "order_id": 1481,
+      "customer": "Customer_86",
+      "item": "Mouse",
+      "amount": 353.97
+    },
+    {
+      "order_id": 1482,
+      "customer": "Customer_86",
+      "item": "Dock",
+      "amount": 1145.14
+    },
+    {
+      "order_id": 1483,
+      "customer": "Customer_87",
+      "item": "Tablet",
+      "amount": 154.59
+    },
+    {
+      "order_id": 1484,
+      "customer": "Customer_87",
+      "item": "Mouse",
+      "amount": 1771.94
+    },
+    {
+      "order_id": 1485,
+      "customer": "Customer_88",
+      "item": "Keyboard",
+      "amount": 300.19
+    },
+    {
+      "order_id": 1486,
+      "customer": "Customer_88",
+      "item": "Keyboard",
+      "amount": 448.7
+    },
+    {
+      "order_id": 1487,
+      "customer": "Customer_88",
+      "item": "Tablet",
+      "amount": 1624.64
+    },
+    {
+      "order_id": 1488,
+      "customer": "Customer_88",
+      "item": "Keyboard",
+      "amount": 1629.35
+    },
+    {
+      "order_id": 1489,
+      "customer": "Customer_89",
+      "item": "Mouse",
+      "amount": 962.89
+    },
+    {
+      "order_id": 1490,
+      "customer": "Customer_89",
+      "item": "Tablet",
+      "amount": 1597.11
+    },
+    {
+      "order_id": 1491,
+      "customer": "Customer_89",
+      "item": "Dock",
+      "amount": 1380.2
+    },
+    {
+      "order_id": 1492,
+      "customer": "Customer_89",
+      "item": "Keyboard",
+      "amount": 1833.81
+    },
+    {
+      "order_id": 1493,
+      "customer": "Customer_89",
+      "item": "Mouse",
+      "amount": 1576.91
+    },
+    {
+      "order_id": 1494,
+      "customer": "Customer_89",
+      "item": "Mouse",
+      "amount": 1263.14
+    },
+    {
+      "order_id": 1495,
+      "customer": "Customer_89",
+      "item": "Keyboard",
+      "amount": 20.53
+    },
+    {
+      "order_id": 1496,
+      "customer": "Customer_89",
+      "item": "Keyboard",
+      "amount": 1096.59
+    },
+    {
+      "order_id": 1497,
+      "customer": "Customer_89",
+      "item": "Tablet",
+      "amount": 576.33
+    },
+    {
+      "order_id": 1498,
+      "customer": "Customer_89",
+      "item": "Tablet",
+      "amount": 1678.98
+    },
+    {
+      "order_id": 1499,
+      "customer": "Customer_90",
+      "item": "Tablet",
+      "amount": 936.35
+    },
+    {
+      "order_id": 1500,
+      "customer": "Customer_90",
+      "item": "Dock",
+      "amount": 1774.21
+    },
+    {
+      "order_id": 1501,
+      "customer": "Customer_90",
+      "item": "Laptop",
+      "amount": 176.11
+    },
+    {
+      "order_id": 1502,
+      "customer": "Customer_90",
+      "item": "Tablet",
+      "amount": 1507.09
+    },
+    {
+      "order_id": 1503,
+      "customer": "Customer_90",
+      "item": "Mouse",
+      "amount": 139.84
+    },
+    {
+      "order_id": 1504,
+      "customer": "Customer_90",
+      "item": "Laptop",
+      "amount": 753.82
+    },
+    {
+      "order_id": 1505,
+      "customer": "Customer_90",
+      "item": "Mouse",
+      "amount": 1160.15
+    },
+    {
+      "order_id": 1506,
+      "customer": "Customer_90",
+      "item": "Mouse",
+      "amount": 186.15
+    },
+    {
+      "order_id": 1507,
+      "customer": "Customer_91",
+      "item": "Dock",
+      "amount": 481.39
+    },
+    {
+      "order_id": 1508,
+      "customer": "Customer_91",
+      "item": "Keyboard",
+      "amount": 1763.88
+    },
+    {
+      "order_id": 1509,
+      "customer": "Customer_91",
+      "item": "Laptop",
+      "amount": 1613.18
+    },
+    {
+      "order_id": 1510,
+      "customer": "Customer_91",
+      "item": "Monitor",
+      "amount": 569.97
+    },
+    {
+      "order_id": 1511,
+      "customer": "Customer_91",
+      "item": "Keyboard",
+      "amount": 1996.09
+    },
+    {
+      "order_id": 1512,
+      "customer": "Customer_91",
+      "item": "Mouse",
+      "amount": 1946.29
+    },
+    {
+      "order_id": 1513,
+      "customer": "Customer_91",
+      "item": "Tablet",
+      "amount": 127.2
+    },
+    {
+      "order_id": 1514,
+      "customer": "Customer_92",
+      "item": "Keyboard",
+      "amount": 1160.03
+    },
+    {
+      "order_id": 1515,
+      "customer": "Customer_92",
+      "item": "Monitor",
+      "amount": 201.77
+    },
+    {
+      "order_id": 1516,
+      "customer": "Customer_93",
+      "item": "Keyboard",
+      "amount": 1474.69
+    },
+    {
+      "order_id": 1517,
+      "customer": "Customer_93",
+      "item": "Laptop",
+      "amount": 694.08
+    },
+    {
+      "order_id": 1518,
+      "customer": "Customer_93",
+      "item": "Keyboard",
+      "amount": 960.89
+    },
+    {
+      "order_id": 1519,
+      "customer": "Customer_93",
+      "item": "Dock",
+      "amount": 467.64
+    },
+    {
+      "order_id": 1520,
+      "customer": "Customer_93",
+      "item": "Tablet",
+      "amount": 1253.94
+    },
+    {
+      "order_id": 1521,
+      "customer": "Customer_93",
+      "item": "Mouse",
+      "amount": 1769.11
+    },
+    {
+      "order_id": 1522,
+      "customer": "Customer_93",
+      "item": "Mouse",
+      "amount": 1116.55
+    },
+    {
+      "order_id": 1523,
+      "customer": "Customer_93",
+      "item": "Keyboard",
+      "amount": 1917.92
+    },
+    {
+      "order_id": 1524,
+      "customer": "Customer_93",
+      "item": "Dock",
+      "amount": 1943.88
+    },
+    {
+      "order_id": 1525,
+      "customer": "Customer_94",
+      "item": "Dock",
+      "amount": 1847.1
+    },
+    {
+      "order_id": 1526,
+      "customer": "Customer_94",
+      "item": "Laptop",
+      "amount": 1354.93
+    },
+    {
+      "order_id": 1527,
+      "customer": "Customer_94",
+      "item": "Laptop",
+      "amount": 207.22
+    },
+    {
+      "order_id": 1528,
+      "customer": "Customer_94",
+      "item": "Tablet",
+      "amount": 537.43
+    },
+    {
+      "order_id": 1529,
+      "customer": "Customer_94",
+      "item": "Mouse",
+      "amount": 1917.48
+    },
+    {
+      "order_id": 1530,
+      "customer": "Customer_94",
+      "item": "Laptop",
+      "amount": 1251.62
+    },
+    {
+      "order_id": 1531,
+      "customer": "Customer_94",
+      "item": "Dock",
+      "amount": 921.79
+    },
+    {
+      "order_id": 1532,
+      "customer": "Customer_94",
+      "item": "Mouse",
+      "amount": 1346.83
+    },
+    {
+      "order_id": 1533,
+      "customer": "Customer_94",
+      "item": "Tablet",
+      "amount": 1584.0
+    },
+    {
+      "order_id": 1534,
+      "customer": "Customer_95",
+      "item": "Monitor",
+      "amount": 970.5
+    },
+    {
+      "order_id": 1535,
+      "customer": "Customer_95",
+      "item": "Dock",
+      "amount": 263.99
+    },
+    {
+      "order_id": 1536,
+      "customer": "Customer_95",
+      "item": "Keyboard",
+      "amount": 1489.89
+    },
+    {
+      "order_id": 1537,
+      "customer": "Customer_95",
+      "item": "Laptop",
+      "amount": 1757.54
+    },
+    {
+      "order_id": 1538,
+      "customer": "Customer_95",
+      "item": "Dock",
+      "amount": 931.05
+    },
+    {
+      "order_id": 1539,
+      "customer": "Customer_95",
+      "item": "Keyboard",
+      "amount": 1528.36
+    },
+    {
+      "order_id": 1540,
+      "customer": "Customer_95",
+      "item": "Mouse",
+      "amount": 969.6
+    },
+    {
+      "order_id": 1541,
+      "customer": "Customer_96",
+      "item": "Monitor",
+      "amount": 697.83
+    },
+    {
+      "order_id": 1542,
+      "customer": "Customer_96",
+      "item": "Tablet",
+      "amount": 136.99
+    },
+    {
+      "order_id": 1543,
+      "customer": "Customer_96",
+      "item": "Keyboard",
+      "amount": 117.43
+    },
+    {
+      "order_id": 1544,
+      "customer": "Customer_96",
+      "item": "Keyboard",
+      "amount": 1712.9
+    },
+    {
+      "order_id": 1545,
+      "customer": "Customer_96",
+      "item": "Tablet",
+      "amount": 158.9
+    },
+    {
+      "order_id": 1546,
+      "customer": "Customer_96",
+      "item": "Tablet",
+      "amount": 867.15
+    },
+    {
+      "order_id": 1547,
+      "customer": "Customer_96",
+      "item": "Dock",
+      "amount": 1971.76
+    },
+    {
+      "order_id": 1548,
+      "customer": "Customer_96",
+      "item": "Dock",
+      "amount": 1438.17
+    },
+    {
+      "order_id": 1549,
+      "customer": "Customer_97",
+      "item": "Monitor",
+      "amount": 45.81
+    },
+    {
+      "order_id": 1550,
+      "customer": "Customer_97",
+      "item": "Tablet",
+      "amount": 1882.26
+    },
+    {
+      "order_id": 1551,
+      "customer": "Customer_98",
+      "item": "Monitor",
+      "amount": 219.49
+    },
+    {
+      "order_id": 1552,
+      "customer": "Customer_98",
+      "item": "Dock",
+      "amount": 1077.05
+    },
+    {
+      "order_id": 1553,
+      "customer": "Customer_99",
+      "item": "Laptop",
+      "amount": 418.38
+    },
+    {
+      "order_id": 1554,
+      "customer": "Customer_99",
+      "item": "Keyboard",
+      "amount": 138.41
+    },
+    {
+      "order_id": 1555,
+      "customer": "Customer_99",
+      "item": "Dock",
+      "amount": 651.82
+    },
+    {
+      "order_id": 1556,
+      "customer": "Customer_99",
+      "item": "Tablet",
+      "amount": 1854.4
+    },
+    {
+      "order_id": 1557,
+      "customer": "Customer_99",
+      "item": "Dock",
+      "amount": 1022.81
+    },
+    {
+      "order_id": 1558,
+      "customer": "Customer_99",
+      "item": "Laptop",
+      "amount": 1384.31
+    },
+    {
+      "order_id": 1559,
+      "customer": "Customer_99",
+      "item": "Mouse",
+      "amount": 321.44
+    },
+    {
+      "order_id": 1560,
+      "customer": "Customer_100",
+      "item": "Dock",
+      "amount": 1349.58
+    },
+    {
+      "order_id": 1561,
+      "customer": "Customer_100",
+      "item": "Dock",
+      "amount": 765.0
+    },
+    {
+      "order_id": 1562,
+      "customer": "Customer_100",
+      "item": "Mouse",
+      "amount": 297.83
+    },
+    {
+      "order_id": 1563,
+      "customer": "Customer_100",
+      "item": "Tablet",
+      "amount": 1101.58
+    },
+    {
+      "order_id": 1564,
+      "customer": "Customer_100",
+      "item": "Tablet",
+      "amount": 1121.37
+    },
+    {
+      "order_id": 1565,
+      "customer": "Customer_100",
+      "item": "Monitor",
+      "amount": 1774.48
+    },
+    {
+      "order_id": 1566,
+      "customer": "Customer_100",
+      "item": "Monitor",
+      "amount": 433.82
+    },
+    {
+      "order_id": 1567,
+      "customer": "Customer_100",
+      "item": "Mouse",
+      "amount": 56.96
+    }
+  ],
+  "payments": [
+    {
+      "customer": "Customer_2",
+      "amount": 286.71
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 349.9
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 1387.17
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 301.02
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 2050.55
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 1112.07
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 2248.17
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 2104.63
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 329.41
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 1371.44
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 1967.46
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 366.55
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 1953.9
+    },
+    {
+      "customer": "Customer_6",
+      "amount": 1820.0
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 1573.58
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 365.61
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 2085.9
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 1419.1
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 1845.04
+    },
+    {
+      "customer": "Customer_7",
+      "amount": 1368.58
+    },
+    {
+      "customer": "Customer_8",
+      "amount": 713.15
+    },
+    {
+      "customer": "Customer_8",
+      "amount": 1655.4
+    },
+    {
+      "customer": "Customer_8",
+      "amount": 717.42
+    },
+    {
+      "customer": "Customer_8",
+      "amount": 1919.69
+    },
+    {
+      "customer": "Customer_8",
+      "amount": 610.79
+    },
+    {
+      "customer": "Customer_9",
+      "amount": 47.0
+    },
+    {
+      "customer": "Customer_9",
+      "amount": 1112.72
+    },
+    {
+      "customer": "Customer_9",
+      "amount": 604.98
+    },
+    {
+      "customer": "Customer_10",
+      "amount": 2074.58
+    },
+    {
+      "customer": "Customer_10",
+      "amount": 941.36
+    },
+    {
+      "customer": "Customer_10",
+      "amount": 2176.81
+    },
+    {
+      "customer": "Customer_10",
+      "amount": 1071.47
+    },
+    {
+      "customer": "Customer_10",
+      "amount": 2102.07
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 1310.46
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 1940.28
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 841.75
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 1355.79
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 2256.17
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 2063.5
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 2103.42
+    },
+    {
+      "customer": "Customer_11",
+      "amount": 2473.27
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 2460.59
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 1049.98
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 1450.91
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 778.84
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 391.01
+    },
+    {
+      "customer": "Customer_12",
+      "amount": 1534.36
+    },
+    {
+      "customer": "Customer_13",
+      "amount": 1689.9
+    },
+    {
+      "customer": "Customer_13",
+      "amount": 1734.27
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 1242.02
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 2148.3
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 1135.23
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 756.08
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 1629.7
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 1725.37
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 766.58
+    },
+    {
+      "customer": "Customer_14",
+      "amount": 2290.2
+    },
+    {
+      "customer": "Customer_15",
+      "amount": 1691.1
+    },
+    {
+      "customer": "Customer_15",
+      "amount": 691.54
+    },
+    {
+      "customer": "Customer_15",
+      "amount": 901.1
+    },
+    {
+      "customer": "Customer_15",
+      "amount": 2291.05
+    },
+    {
+      "customer": "Customer_16",
+      "amount": 316.25
+    },
+    {
+      "customer": "Customer_16",
+      "amount": 2000.88
+    },
+    {
+      "customer": "Customer_17",
+      "amount": 825.58
+    },
+    {
+      "customer": "Customer_17",
+      "amount": 1311.28
+    },
+    {
+      "customer": "Customer_17",
+      "amount": 199.54
+    },
+    {
+      "customer": "Customer_18",
+      "amount": 1672.9
+    },
+    {
+      "customer": "Customer_19",
+      "amount": 1250.95
+    },
+    {
+      "customer": "Customer_19",
+      "amount": 1922.08
+    },
+    {
+      "customer": "Customer_19",
+      "amount": 1844.6
+    },
+    {
+      "customer": "Customer_19",
+      "amount": 1991.16
+    },
+    {
+      "customer": "Customer_19",
+      "amount": 2090.47
+    },
+    {
+      "customer": "Customer_20",
+      "amount": 459.42
+    },
+    {
+      "customer": "Customer_21",
+      "amount": 1503.21
+    },
+    {
+      "customer": "Customer_21",
+      "amount": 287.92
+    },
+    {
+      "customer": "Customer_21",
+      "amount": 167.55
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 99.62
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 1320.95
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 634.38
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 1057.28
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 2000.36
+    },
+    {
+      "customer": "Customer_22",
+      "amount": 1408.45
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 193.47
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 2134.16
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 1337.91
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 2336.76
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 1167.52
+    },
+    {
+      "customer": "Customer_23",
+      "amount": 2002.81
+    },
+    {
+      "customer": "Customer_25",
+      "amount": 963.58
+    },
+    {
+      "customer": "Customer_25",
+      "amount": 264.25
+    },
+    {
+      "customer": "Customer_25",
+      "amount": 453.79
+    },
+    {
+      "customer": "Customer_25",
+      "amount": 1444.14
+    },
+    {
+      "customer": "Customer_25",
+      "amount": 1694.24
+    },
+    {
+      "customer": "Customer_27",
+      "amount": 831.68
+    },
+    {
+      "customer": "Customer_27",
+      "amount": 324.1
+    },
+    {
+      "customer": "Customer_27",
+      "amount": 2033.52
+    },
+    {
+      "customer": "Customer_27",
+      "amount": 1439.53
+    },
+    {
+      "customer": "Customer_27",
+      "amount": 2496.51
+    },
+    {
+      "customer": "Customer_28",
+      "amount": 1616.87
+    },
+    {
+      "customer": "Customer_29",
+      "amount": 1253.13
+    },
+    {
+      "customer": "Customer_29",
+      "amount": 375.8
+    },
+    {
+      "customer": "Customer_29",
+      "amount": 1604.89
+    },
+    {
+      "customer": "Customer_29",
+      "amount": 2388.27
+    },
+    {
+      "customer": "Customer_29",
+      "amount": 1846.64
+    },
+    {
+      "customer": "Customer_30",
+      "amount": 1653.16
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 1515.56
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 2109.8
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 685.89
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 275.68
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 1116.51
+    },
+    {
+      "customer": "Customer_31",
+      "amount": 1732.91
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 2039.79
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 1979.47
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 330.71
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 2415.4
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 1193.56
+    },
+    {
+      "customer": "Customer_32",
+      "amount": 2088.1
+    },
+    {
+      "customer": "Customer_33",
+      "amount": 2175.44
+    },
+    {
+      "customer": "Customer_33",
+      "amount": 2474.78
+    },
+    {
+      "customer": "Customer_34",
+      "amount": 816.39
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 183.0
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 790.95
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 2273.15
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 1577.19
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 1908.11
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 1950.92
+    },
+    {
+      "customer": "Customer_35",
+      "amount": 1297.82
+    },
+    {
+      "customer": "Customer_36",
+      "amount": 591.95
+    },
+    {
+      "customer": "Customer_36",
+      "amount": 2363.22
+    },
+    {
+      "customer": "Customer_36",
+      "amount": 2469.32
+    },
+    {
+      "customer": "Customer_36",
+      "amount": 1127.93
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 2330.54
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 2459.42
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 984.54
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 708.13
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 2455.8
+    },
+    {
+      "customer": "Customer_37",
+      "amount": 2444.04
+    },
+    {
+      "customer": "Customer_38",
+      "amount": 2184.86
+    },
+    {
+      "customer": "Customer_38",
+      "amount": 171.14
+    },
+    {
+      "customer": "Customer_38",
+      "amount": 1970.16
+    },
+    {
+      "customer": "Customer_39",
+      "amount": 951.18
+    },
+    {
+      "customer": "Customer_39",
+      "amount": 1512.75
+    },
+    {
+      "customer": "Customer_39",
+      "amount": 117.77
+    },
+    {
+      "customer": "Customer_39",
+      "amount": 2369.78
+    },
+    {
+      "customer": "Customer_39",
+      "amount": 196.57
+    },
+    {
+      "customer": "Customer_40",
+      "amount": 439.7
+    },
+    {
+      "customer": "Customer_40",
+      "amount": 691.41
+    },
+    {
+      "customer": "Customer_40",
+      "amount": 808.72
+    },
+    {
+      "customer": "Customer_40",
+      "amount": 2160.31
+    },
+    {
+      "customer": "Customer_40",
+      "amount": 363.74
+    },
+    {
+      "customer": "Customer_41",
+      "amount": 1124.9
+    },
+    {
+      "customer": "Customer_41",
+      "amount": 2125.67
+    },
+    {
+      "customer": "Customer_42",
+      "amount": 1831.18
+    },
+    {
+      "customer": "Customer_42",
+      "amount": 1541.55
+    },
+    {
+      "customer": "Customer_43",
+      "amount": 2304.22
+    },
+    {
+      "customer": "Customer_43",
+      "amount": 1810.38
+    },
+    {
+      "customer": "Customer_44",
+      "amount": 54.15
+    },
+    {
+      "customer": "Customer_44",
+      "amount": 1125.76
+    },
+    {
+      "customer": "Customer_44",
+      "amount": 1181.27
+    },
+    {
+      "customer": "Customer_45",
+      "amount": 1689.1
+    },
+    {
+      "customer": "Customer_45",
+      "amount": 2284.09
+    },
+    {
+      "customer": "Customer_45",
+      "amount": 1099.94
+    },
+    {
+      "customer": "Customer_45",
+      "amount": 1190.13
+    },
+    {
+      "customer": "Customer_46",
+      "amount": 435.18
+    },
+    {
+      "customer": "Customer_46",
+      "amount": 2054.64
+    },
+    {
+      "customer": "Customer_46",
+      "amount": 1459.09
+    },
+    {
+      "customer": "Customer_46",
+      "amount": 1263.55
+    },
+    {
+      "customer": "Customer_46",
+      "amount": 1361.73
+    },
+    {
+      "customer": "Customer_47",
+      "amount": 498.98
+    },
+    {
+      "customer": "Customer_47",
+      "amount": 481.05
+    },
+    {
+      "customer": "Customer_47",
+      "amount": 1993.55
+    },
+    {
+      "customer": "Customer_47",
+      "amount": 1736.43
+    },
+    {
+      "customer": "Customer_48",
+      "amount": 1477.18
+    },
+    {
+      "customer": "Customer_48",
+      "amount": 240.6
+    },
+    {
+      "customer": "Customer_48",
+      "amount": 844.17
+    },
+    {
+      "customer": "Customer_49",
+      "amount": 2228.88
+    },
+    {
+      "customer": "Customer_49",
+      "amount": 992.04
+    },
+    {
+      "customer": "Customer_49",
+      "amount": 1049.02
+    },
+    {
+      "customer": "Customer_49",
+      "amount": 881.54
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 364.5
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 329.77
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 1290.59
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 1663.0
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 236.4
+    },
+    {
+      "customer": "Customer_50",
+      "amount": 1087.2
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 950.54
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 932.27
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 1548.8
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 1547.82
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 1560.38
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 2338.63
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 720.89
+    },
+    {
+      "customer": "Customer_51",
+      "amount": 300.66
+    },
+    {
+      "customer": "Customer_52",
+      "amount": 1845.83
+    },
+    {
+      "customer": "Customer_52",
+      "amount": 2184.78
+    },
+    {
+      "customer": "Customer_52",
+      "amount": 479.17
+    },
+    {
+      "customer": "Customer_52",
+      "amount": 2301.42
+    },
+    {
+      "customer": "Customer_52",
+      "amount": 2315.14
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 2318.08
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 1715.07
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 1287.94
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 2160.09
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 2290.82
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 1390.4
+    },
+    {
+      "customer": "Customer_54",
+      "amount": 1461.27
+    },
+    {
+      "customer": "Customer_55",
+      "amount": 2451.82
+    },
+    {
+      "customer": "Customer_55",
+      "amount": 265.96
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 1071.01
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 205.86
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 2048.2
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 1466.53
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 643.57
+    },
+    {
+      "customer": "Customer_56",
+      "amount": 16.5
+    },
+    {
+      "customer": "Customer_57",
+      "amount": 2277.91
+    },
+    {
+      "customer": "Customer_57",
+      "amount": 75.89
+    },
+    {
+      "customer": "Customer_57",
+      "amount": 2344.66
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 2417.61
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 2187.61
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 1407.03
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 1235.45
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 1121.58
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 1704.4
+    },
+    {
+      "customer": "Customer_58",
+      "amount": 280.08
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 1773.3
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 116.91
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 767.7
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 1572.81
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 968.59
+    },
+    {
+      "customer": "Customer_59",
+      "amount": 2211.84
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 411.96
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 1290.13
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 1765.23
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 801.4
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 1151.1
+    },
+    {
+      "customer": "Customer_60",
+      "amount": 615.3
+    },
+    {
+      "customer": "Customer_62",
+      "amount": 2480.96
+    },
+    {
+      "customer": "Customer_65",
+      "amount": 582.57
+    },
+    {
+      "customer": "Customer_65",
+      "amount": 1607.76
+    },
+    {
+      "customer": "Customer_65",
+      "amount": 47.75
+    },
+    {
+      "customer": "Customer_65",
+      "amount": 35.12
+    },
+    {
+      "customer": "Customer_65",
+      "amount": 608.65
+    },
+    {
+      "customer": "Customer_66",
+      "amount": 1788.37
+    },
+    {
+      "customer": "Customer_66",
+      "amount": 246.42
+    },
+    {
+      "customer": "Customer_66",
+      "amount": 51.12
+    },
+    {
+      "customer": "Customer_66",
+      "amount": 1733.71
+    },
+    {
+      "customer": "Customer_66",
+      "amount": 1051.22
+    },
+    {
+      "customer": "Customer_67",
+      "amount": 1287.83
+    },
+    {
+      "customer": "Customer_67",
+      "amount": 2127.08
+    },
+    {
+      "customer": "Customer_67",
+      "amount": 683.79
+    },
+    {
+      "customer": "Customer_67",
+      "amount": 1248.7
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 2450.42
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 117.58
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 1430.72
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 1114.33
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 324.61
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 59.4
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 527.43
+    },
+    {
+      "customer": "Customer_68",
+      "amount": 48.5
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 2143.83
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 2366.02
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 626.91
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 1498.64
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 1897.11
+    },
+    {
+      "customer": "Customer_69",
+      "amount": 1731.15
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 205.72
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 722.25
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 2168.8
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 2304.18
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 600.02
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 1835.56
+    },
+    {
+      "customer": "Customer_70",
+      "amount": 832.75
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 1704.31
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 170.49
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 842.69
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 317.05
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 492.04
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 1836.92
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 1196.34
+    },
+    {
+      "customer": "Customer_71",
+      "amount": 479.51
+    },
+    {
+      "customer": "Customer_72",
+      "amount": 1928.18
+    },
+    {
+      "customer": "Customer_72",
+      "amount": 1297.32
+    },
+    {
+      "customer": "Customer_72",
+      "amount": 1389.24
+    },
+    {
+      "customer": "Customer_72",
+      "amount": 922.47
+    },
+    {
+      "customer": "Customer_72",
+      "amount": 720.4
+    },
+    {
+      "customer": "Customer_74",
+      "amount": 594.79
+    },
+    {
+      "customer": "Customer_74",
+      "amount": 81.96
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 1041.63
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 515.25
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 497.37
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 1914.95
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 147.85
+    },
+    {
+      "customer": "Customer_75",
+      "amount": 1372.26
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 834.41
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 1310.5
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 298.53
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 1410.97
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 2014.33
+    },
+    {
+      "customer": "Customer_76",
+      "amount": 2119.39
+    },
+    {
+      "customer": "Customer_77",
+      "amount": 2267.0
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 525.51
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 1852.71
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 765.15
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 2303.25
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 2008.48
+    },
+    {
+      "customer": "Customer_78",
+      "amount": 1402.86
+    },
+    {
+      "customer": "Customer_79",
+      "amount": 595.75
+    },
+    {
+      "customer": "Customer_79",
+      "amount": 1640.44
+    },
+    {
+      "customer": "Customer_79",
+      "amount": 2036.85
+    },
+    {
+      "customer": "Customer_79",
+      "amount": 2257.58
+    },
+    {
+      "customer": "Customer_79",
+      "amount": 237.61
+    },
+    {
+      "customer": "Customer_80",
+      "amount": 1750.39
+    },
+    {
+      "customer": "Customer_81",
+      "amount": 335.04
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 79.23
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 1909.81
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 230.13
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 2404.5
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 116.72
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 392.78
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 572.5
+    },
+    {
+      "customer": "Customer_82",
+      "amount": 2238.11
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 2099.38
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 1531.66
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 2464.89
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 1869.26
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 526.44
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 1786.4
+    },
+    {
+      "customer": "Customer_83",
+      "amount": 424.09
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 1353.75
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 1140.88
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 1475.19
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 2447.15
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 1336.55
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 872.4
+    },
+    {
+      "customer": "Customer_84",
+      "amount": 393.29
+    },
+    {
+      "customer": "Customer_85",
+      "amount": 919.04
+    },
+    {
+      "customer": "Customer_85",
+      "amount": 1237.86
+    },
+    {
+      "customer": "Customer_85",
+      "amount": 1283.98
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 1181.06
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 1029.5
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 128.83
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 1405.24
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 2279.3
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 959.28
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 629.86
+    },
+    {
+      "customer": "Customer_86",
+      "amount": 1016.42
+    },
+    {
+      "customer": "Customer_87",
+      "amount": 614.97
+    },
+    {
+      "customer": "Customer_87",
+      "amount": 1702.64
+    },
+    {
+      "customer": "Customer_87",
+      "amount": 131.97
+    },
+    {
+      "customer": "Customer_87",
+      "amount": 2491.68
+    },
+    {
+      "customer": "Customer_87",
+      "amount": 1919.18
+    },
+    {
+      "customer": "Customer_88",
+      "amount": 2244.85
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 1307.73
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 683.05
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 380.16
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 1489.77
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 480.15
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 168.03
+    },
+    {
+      "customer": "Customer_89",
+      "amount": 1560.39
+    },
+    {
+      "customer": "Customer_90",
+      "amount": 1822.79
+    },
+    {
+      "customer": "Customer_90",
+      "amount": 1053.69
+    },
+    {
+      "customer": "Customer_90",
+      "amount": 1389.83
+    },
+    {
+      "customer": "Customer_90",
+      "amount": 1586.49
+    },
+    {
+      "customer": "Customer_91",
+      "amount": 2154.55
+    },
+    {
+      "customer": "Customer_91",
+      "amount": 2041.43
+    },
+    {
+      "customer": "Customer_91",
+      "amount": 1010.18
+    },
+    {
+      "customer": "Customer_91",
+      "amount": 1533.41
+    },
+    {
+      "customer": "Customer_91",
+      "amount": 1649.64
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 1874.54
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 2468.49
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 2237.62
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 1380.57
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 1305.91
+    },
+    {
+      "customer": "Customer_92",
+      "amount": 267.25
+    },
+    {
+      "customer": "Customer_93",
+      "amount": 1469.45
+    },
+    {
+      "customer": "Customer_94",
+      "amount": 593.57
+    },
+    {
+      "customer": "Customer_94",
+      "amount": 1279.67
+    },
+    {
+      "customer": "Customer_94",
+      "amount": 840.27
+    },
+    {
+      "customer": "Customer_94",
+      "amount": 1211.98
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 1431.38
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 2042.42
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 2375.84
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 1426.91
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 1383.82
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 1985.66
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 1972.66
+    },
+    {
+      "customer": "Customer_95",
+      "amount": 335.38
+    },
+    {
+      "customer": "Customer_96",
+      "amount": 939.71
+    },
+    {
+      "customer": "Customer_96",
+      "amount": 1216.83
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 2354.11
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 1541.29
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 1466.46
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 2448.45
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 195.96
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 906.55
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 907.02
+    },
+    {
+      "customer": "Customer_97",
+      "amount": 111.07
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 1598.03
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 2165.56
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 817.63
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 1234.82
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 864.86
+    },
+    {
+      "customer": "Customer_98",
+      "amount": 341.26
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 2288.91
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 754.67
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 2066.74
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 2019.5
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 669.89
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 1419.81
+    },
+    {
+      "customer": "Customer_99",
+      "amount": 756.67
+    },
+    {
+      "customer": "Customer_5",
+      "amount": 10000.0
+    },
+    {
+      "customer": "Customer_20",
+      "amount": 15000.0
+    }
+  ]
+}

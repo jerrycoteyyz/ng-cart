@@ -16,7 +16,8 @@ import { CartService } from '../../../core/cart.service';
           <a routerLink="/products" routerLinkActive="active">Shop</a>
           <a routerLink="/orders"   routerLinkActive="active">Existing Orders</a>
           <a routerLink="/payment"  routerLinkActive="active">Make Payment</a>
-          <a routerLink="/reports"  routerLinkActive="active">Reports</a>
+          <a routerLink="/reports"     routerLinkActive="active">Reports</a>
+          <a routerLink="/build-data" routerLinkActive="active">Build More Data</a>
         </nav>
 
         <div class="header-right">

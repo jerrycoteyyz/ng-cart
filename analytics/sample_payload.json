@@ -1,0 +1,14 @@
+{
+  "orders": [
+    { "order_id": 1001, "customer": "Jerry Cote", "item": "Laptop", "amount": 1200.00 },
+    { "order_id": 1002, "customer": "Jane Smith", "item": "Monitor", "amount": 300.00 },
+    { "order_id": 1003, "customer": "Jane Smith", "item": "Keyboard", "amount": 80.00 },
+    { "order_id": 1004, "customer": "Bob Lee", "item": "Dock", "amount": 150.00 }
+  ],
+  "payments": [
+    { "customer": "Jerry Cote", "amount": 1200.00 },
+    { "customer": "Jane Smith", "amount": 100.00 },
+    { "customer": "Jane Smith", "amount": 50.00 },
+    { "customer": "Alice Green", "amount": 9000.00 }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+    "segments": [
+        {
+            "segment_label": "unpaid_customers",
+            "customer_count": 14,
+            "total_positive_balance": 123911.55,
+            "total_negative_balance": 0.0,
+            "avg_balance": 8850.83,
+            "max_balance": 12679.37,
+            "critical_count": 7,
+            "high_count": 7,
+            "medium_count": 0,
+            "low_count": 0,
+            "priority": 1,
+            "action": "collect"
+        },
+        {
+            "segment_label": "high_anomaly_overpay",
+            "customer_count": 12,
+            "total_positive_balance": 0.0,
+            "total_negative_balance": -97552.29,
+            "avg_balance": -8129.36,
+            "max_balance": -4297.56,
+            "critical_count": 4,
+            "high_count": 6,
+            "medium_count": 2,
+            "low_count": 0,
+            "priority": 1,
+            "action": "investigate"
+        },
+        {
+            "segment_label": "extreme_outlier",
+            "customer_count": 1,
+            "total_positive_balance": 0.0,
+            "total_negative_balance": -11873.18,
+            "avg_balance": -11873.18,
+            "max_balance": -11873.18,
+            "critical_count": 1,
+            "high_count": 0,
+            "medium_count": 0,
+            "low_count": 0,
+            "priority": 1,
+            "action": "review"
+        },
+        {
+            "segment_label": "underpaying_customers",
+            "customer_count": 18,
+            "total_positive_balance": 78735.87,
+            "total_negative_balance": 0.0,
+            "avg_balance": 4374.22,
+            "max_balance": 7471.8,
+            "critical_count": 0,
+            "high_count": 12,
+            "medium_count": 5,
+            "low_count": 1,
+            "priority": 2,
+            "action": "recover"
+        },
+        {
+            "segment_label": "payment_heavy",
+            "customer_count": 16,
+            "total_positive_balance": 0.0,
+            "total_negative_balance": -59729.64,
+            "avg_balance": -3733.1,
+            "max_balance": -132.96,
+            "critical_count": 0,
+            "high_count": 4,
+            "medium_count": 8,
+            "low_count": 4,
+            "priority": 3,
+            "action": "audit"
+        },
+        {
+            "segment_label": "healthy_active",
+            "customer_count": 21,
+            "total_positive_balance": 23616.04,
+            "total_negative_balance": -35494.71,
+            "avg_balance": -565.65,
+            "max_balance": 5917.21,
+            "critical_count": 0,
+            "high_count": 5,
+            "medium_count": 11,
+            "low_count": 5,
+            "priority": 4,
+            "action": "retain"
+        },
+        {
+            "segment_label": "mid_tier_mixed",
+            "customer_count": 18,
+            "total_positive_balance": 21238.49,
+            "total_negative_balance": -9709.12,
+            "avg_balance": 640.52,
+            "max_balance": 4290.17,
+            "critical_count": 0,
+            "high_count": 4,
+            "medium_count": 4,
+            "low_count": 10,
+            "priority": 5,
+            "action": "monitor"
+        }
+    ]
+}

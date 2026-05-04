@@ -1,7 +1,7 @@
 -- ============================================================
 -- EXTENSIONS
 -- ============================================================
-CREATE EXTENSION IF NOT EXISTS pgcrypto;   -- gen_random_uuid(), crypt()
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 -- ============================================================
 -- USERS
@@ -39,8 +39,6 @@ CREATE INDEX idx_products_price    ON products (price)    WHERE is_active;
 
 -- ============================================================
 -- CARTS
--- Belongs to either a logged-in user or an anonymous session,
--- never both at the same time.
 -- ============================================================
 CREATE TABLE carts (
   id          BIGINT      PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
@@ -75,7 +73,6 @@ CREATE INDEX idx_cart_items_cart ON cart_items (cart_id);
 
 -- ============================================================
 -- ORDERS
--- Snapshot of totals at checkout — never recomputed from live data.
 -- ============================================================
 CREATE TYPE order_status AS ENUM (
   'pending', 'confirmed', 'shipped', 'delivered', 'cancelled'
@@ -99,9 +96,6 @@ CREATE INDEX idx_orders_placed ON orders (placed_at DESC);
 
 -- ============================================================
 -- ORDER ITEMS
--- Snapshot of each line: name and price copied at checkout time.
--- product_id kept as a soft reference (SET NULL on delete) so
--- order history survives product removal.
 -- ============================================================
 CREATE TABLE order_items (
   id            BIGINT        PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
@@ -118,9 +112,6 @@ CREATE INDEX idx_order_items_order ON order_items (order_id);
 
 -- ============================================================
 -- PAYMENTS
--- User payments submitted independently of orders.
--- The Python analytics service reconciles these against order
--- totals to compute each customer's running balance.
 -- ============================================================
 CREATE TABLE payments (
   id       BIGINT        PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
@@ -135,8 +126,6 @@ CREATE INDEX idx_payments_paid ON payments (paid_at DESC);
 
 -- ============================================================
 -- ANALYTICS PERSISTENCE
--- Owned by the Python analytics service. Stores the result of
--- each KMeans segmentation run so trends can be tracked over time.
 -- ============================================================
 CREATE TABLE analysis_runs (
   run_id        SERIAL      PRIMARY KEY,
@@ -148,7 +137,7 @@ CREATE TABLE analysis_runs (
 CREATE TABLE customer_segment_results (
   result_id         SERIAL        PRIMARY KEY,
   run_id            INT           NOT NULL REFERENCES analysis_runs (run_id) ON DELETE CASCADE,
-  customer          TEXT          NOT NULL,   -- user email, the join key to ng-cart users
+  customer          TEXT          NOT NULL,
   segment_label     TEXT,
   priority          INT,
   action            TEXT,
@@ -169,17 +158,13 @@ CREATE INDEX idx_csr_action   ON customer_segment_results (action);
 
 -- ============================================================
 -- BRIDGE VIEWS FOR THE PYTHON ANALYTICS SERVICE
--- The Python data_service.py queries these views instead of
--- raw tables. They translate ng-cart's relational schema into
--- the flat shape the service expects, using email as the
--- customer identifier shared across both systems.
 -- ============================================================
 CREATE VIEW v_orders_for_analysis AS
 SELECT
   o.id          AS order_id,
   u.email       AS customer,
   'cart-order'  AS item,
-  o.total       AS amount,
+  o.subtotal    AS amount,
   o.placed_at   AS order_timestamp
 FROM orders o
 JOIN users u ON u.id = o.user_id
