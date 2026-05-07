@@ -58,11 +58,11 @@ interface CustomerSegment {
           <div class="kpi-value">{{ totalCustomers() }}</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Positive Exposure</div>
+          <div class="kpi-label">Negative Exposure</div>
           <div class="kpi-value">{{ totalPositive() | currencyFormat }}</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Negative Exposure</div>
+          <div class="kpi-label">Positive Exposure</div>
           <div class="kpi-value">{{ totalNegative() | currencyFormat }}</div>
         </div>
         <div class="kpi-card kpi-alert">
@@ -70,11 +70,11 @@ interface CustomerSegment {
           <div class="kpi-value">{{ criticalCount() }}</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Top Positive Segment</div>
+          <div class="kpi-label">Top Negative Segment</div>
           <div class="kpi-value kpi-label-value">{{ fmt(topPositiveSegment()) }}</div>
         </div>
         <div class="kpi-card">
-          <div class="kpi-label">Top Negative Segment</div>
+          <div class="kpi-label">Top Positive Segment</div>
           <div class="kpi-value kpi-label-value">{{ fmt(topNegativeSegment()) }}</div>
         </div>
       </div>
